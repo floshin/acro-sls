@@ -26,14 +26,20 @@ p {
 .about {
   display: flex;
 }
+
+.about img {
+  max-width: 100%;
+}
   
 .sport {
   background: #b5a48c;
+  max-width: 50vw;
 }
 
 .show {
   background: #000;
   color: #fefefe;
+  max-width: 50vw;
 }
 
 .schedule {
