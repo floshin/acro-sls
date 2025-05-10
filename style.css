@@ -5,11 +5,20 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 2em;
 }
 
 p {
   max-width: 550px;
+  line-height: 1.5em;
 }
 
 .sport {
