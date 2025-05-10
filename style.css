@@ -29,3 +29,23 @@ p {
   background: #000;
   color: #fefefe;
 }
+
+.schedule {
+  color: #fefefe;
+}
+
+.schedule h3 {
+  background: #000;
+}
+
+.beginner {
+  background: #414e45; /* green group */
+}
+
+.recreational {
+  background: #44414e; /* blue group */
+}
+
+.professional {
+  background: #4e4143; /* red group */
+}
