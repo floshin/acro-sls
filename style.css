@@ -2,10 +2,13 @@
 body {
   background: #b5a48c;
   font-family: helvetica, arial;
+  margin: 0;
+  display: flex;
 }
 
 h1 {
   font-size: 4em;
+  margin-bottom: 0;
 }
 
 h2 {
