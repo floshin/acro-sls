@@ -30,6 +30,10 @@ p {
 .about img {
   max-width: 100%;
 }
+
+.about>section {
+  padding: 2em;
+}
   
 .sport {
   background: #b5a48c;
