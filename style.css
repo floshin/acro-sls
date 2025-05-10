@@ -1,6 +1,11 @@
 
 body {
   background: #b5a48c;
+  font-family: helvetica, arial;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 p {
