@@ -1,0 +1,17 @@
+
+body {
+  background: #b5a48c;
+}
+
+p {
+  max-width: 550px;
+}
+
+.sport {
+  background: #b5a48c;
+}
+
+.show {
+  background: #000;
+  color: #fefefe;
+}
