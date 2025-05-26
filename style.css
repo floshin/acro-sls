@@ -54,6 +54,12 @@ padding: 10 15px 30px;
   padding-bottom: 30px; 
 }
 
+.seek {
+  background: #000;
+  color: #fefefe;
+  margin: 0 10px;
+}
+
 .show {
   background: #000;
   /* max-width: 50vw; // Desktop */
