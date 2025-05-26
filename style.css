@@ -1,6 +1,6 @@
 
 body {
-  background: #fff2e6; /*#b5a48c;*/
+  background: #000; /*#b5a48c;*/
   font-family: helvetica, arial;
   margin: 0;
   border: 10px solid black;
@@ -11,14 +11,16 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 3em;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 0;
+  text-align: center;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 h3 {
