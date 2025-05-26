@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 5vw;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 0;
@@ -23,11 +23,12 @@ h3 {
 p {
  /* max-width: 550px; // Desktop only */
   line-height: 1.5em;
-  padding: 10px 20px 30px;
+  padding: 0 20px;
 }
 
 .about {
  /* display: flex; // Desktop Only */
+padding: 10 0 30px;
 }
 
 .about img {
