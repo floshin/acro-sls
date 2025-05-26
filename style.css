@@ -19,12 +19,12 @@ h3 {
 }
 
 p {
-  max-width: 550px;
+ /* max-width: 550px; // Desktop only */
   line-height: 1.5em;
 }
 
 .about {
- /* display: flex; */
+ /* display: flex; // Desktop Only */
 }
 
 .about img {
@@ -32,18 +32,18 @@ p {
 }
 
 .about>section {
-  padding: 2em;
+  /*padding: 2em; // Desktop */
 }
   
 .sport {
   background: #b5a48c;
-  max-width: 50vw;
+  /*max-width: 50vw; // Desktop */
 }
 
 .show {
   background: #000;
   color: #fefefe;
-  max-width: 50vw;
+  /* max-width: 50vw; // Desktop */
 }
 
 .schedule {
