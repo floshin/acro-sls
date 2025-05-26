@@ -57,7 +57,7 @@ padding: 10 15px 30px;
 .show {
   background: #000;
   /* max-width: 50vw; // Desktop */
-  padding-bottom: 30px; 
+  padding-bottom: 10px; 
 }
    .show h3 {
      margin-top: -20px;
