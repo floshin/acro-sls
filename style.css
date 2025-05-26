@@ -1,6 +1,6 @@
 
 body {
-  background: #ffe6cc; /*#b5a48c;*/
+  background: #fff2e6; /*#b5a48c;*/
   font-family: helvetica, arial;
   margin: 0;
 }
@@ -41,7 +41,7 @@ padding: 10 0 30px;
 }
   
 .sport {
-  background: #b5a48c;
+  background: #fff2e6;
   /*max-width: 50vw; // Desktop */
 }
 
@@ -54,6 +54,9 @@ padding: 10 0 30px;
 .schedule {
   color: #fefefe;
 }
+  .schedule section {
+    padding: 10px 15px 20px;
+  }
 
 .schedule h3 {
   background: #000;
