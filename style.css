@@ -7,6 +7,10 @@ body {
   border: 10px solid black;
 }
 
+header {
+  margin-bottom: 30px;
+}
+
 h1, h2, h3, h4 {
   padding: 0 15px;
 }
