@@ -98,7 +98,7 @@ th {
   text-align: left; 
 }
 
-tr {
+tr, td, th {
   padding: 10px 15px;
 }
 
