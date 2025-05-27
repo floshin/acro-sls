@@ -88,6 +88,10 @@ summary { list-style-type: '▼'; padding: 0 15px; }
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
 
+th { text-align: left; }
+tr:nth-child(even) { background-color: rgba(0, 0, 0, 0.5); }
+
+
 .beginner { background: #414e45; /* green */ }
 .recreational { background: #44414e; /* blue */ }
 .professional { background: #4e4143; /* red */ }
