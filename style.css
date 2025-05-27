@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Futura";
+  src: url(OPTIFuturaDemiBold.otf) format("truetype");
+}
 
 body {
   background: #000; /*#b5a48c;*/
@@ -8,6 +12,7 @@ body {
 }
 
 header {
+  font-family: "Futura";
   margin-bottom: 30px;
 }
 
