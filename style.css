@@ -90,7 +90,7 @@ summary::marker { padding-right: 10px; }
 
 table { 
   width: 100%; 
-  padding: 0 15px;
+  margin: 0 15px;
   border-collapse: collapse;
 }
 
