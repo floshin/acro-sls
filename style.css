@@ -82,9 +82,9 @@ img {
   margin-top: 30px;
 }
 
-summary h4 { }
+summary h4 { font-size: inherit; }
 
-summary { list-style-type: '▼'; padding: 0 15cm; } 
+summary { list-style-type: '▼'; padding: 0 15px; } 
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
 
