@@ -82,7 +82,7 @@ img {
   margin-top: 30px;
 }
 
-summary { list-style-type: '▼'; } 
+summary { list-style-type: '▼'; padding: 0 15cm; } 
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
 
