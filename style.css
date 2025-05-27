@@ -127,8 +127,7 @@ tr:nth-child(even) {
 .recreational { background: #44414e; /* blue */ }
 .professional { background: #4e4143; /* red */ }
 .elite { background: #493131; /* redder */ }
-.where { background: #63233b; }
-.contact { background: #493c31; }
+.contact { background: #63233b; }
 
 footer {
   margin: 30px 0;
