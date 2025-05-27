@@ -24,8 +24,8 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 4em;
-  margin-bottom: 0;
+  font-size: 3.5em;
+  margin: 0;
   padding-top: 0;
   text-align: center;
 }
@@ -47,7 +47,7 @@ p {
 
 .about {
  /* display: flex; // Desktop Only */
-padding: 10 15px 30px;
+padding: 0 15px 30px;
 }
 
 img {
