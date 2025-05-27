@@ -99,7 +99,7 @@ th {
 }
 
 tr:nth-child(even) { 
-  background-color: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5); 
 }
 
 .beginner { background: #414e45; /* green */ }
