@@ -75,7 +75,7 @@ img {
 
   .schedule section {
     margin-top: 10px;
-    padding: 10px 0 20px;
+    padding: 10px 0;
   }
 
 .schedule h3 {
@@ -96,6 +96,7 @@ summary {
 
 details {
   padding: 0;
+  margin: 0;
 }
 
 details[open] > summary { list-style-type: '▲'; }
