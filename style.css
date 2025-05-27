@@ -99,6 +99,10 @@ details {
   margin: 0;
 }
 
+details p {
+  font-size: 14px;
+}
+
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
 
