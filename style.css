@@ -82,6 +82,10 @@ img {
   margin-top: 30px;
 }
 
+summary { list-style-type: '▼'; } 
+details[open] > summary { list-style-type: '▲'; }
+summary::marker { padding-right: 10px; }
+
 .beginner { background: #414e45; /* green */ }
 .recreational { background: #44414e; /* blue */ }
 .professional { background: #4e4143; /* red */ }
