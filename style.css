@@ -88,6 +88,7 @@ summary { list-style-type: '▼'; padding: 0 15px; }
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
 
+table { width: 100%; }
 th { text-align: left; }
 tr:nth-child(even) { background-color: rgba(0, 0, 0, 0.5); }
 
