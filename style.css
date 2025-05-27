@@ -20,6 +20,7 @@ header {
 
 h1, h2, h3, h4 {
   padding: 0 15px;
+  font-family: "Futura";
 }
 
 h1 {
@@ -76,6 +77,7 @@ img {
 
 .schedule {
 }
+
   .schedule section {
     margin-top: 10px;
     padding: 10px 0 20px;
@@ -98,7 +100,7 @@ img {
 }
 
 footer {
-  margin-top: 50px;
+  margin: 30px 0 50px;
   font-size: 12px;
   text-align: right;
 }
