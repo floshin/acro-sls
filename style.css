@@ -82,7 +82,7 @@ img {
   margin-top: 30px;
 }
 
-summary h4 { font-size: inherit; }
+summary h4 { font-size: inherit; display: inline-block; }
 
 summary { list-style-type: '▼'; padding: 0 15px; } 
 details[open] > summary { list-style-type: '▲'; }
