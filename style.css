@@ -147,6 +147,14 @@ footer {
   font-size: 12px;
   text-align: center;
 }
+  footer section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+    footer section img {
+      max-width: 45%;
+    }
 
 footer p {
   display: block;
