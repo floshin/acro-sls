@@ -18,7 +18,7 @@ header {
 }
   header section {
     display: flex;
-    margin: 20px;
+    padding: 20px;
   }
     header section img {
       max-width: 90px;
