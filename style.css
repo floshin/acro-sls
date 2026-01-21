@@ -24,7 +24,7 @@ header {
   }
     header section img {
       max-width: 90px;
-      margin-bottom: -100px;
+      margin-bottom: -200px;
       z-index: 2;
     }
 
