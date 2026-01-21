@@ -149,12 +149,15 @@ footer {
 }
   footer section {
     display: flex;
-    gap: 20px;
     align-items: center;
+    justify-content: space-around;
   }
     footer section img {
       max-width: 45%;
     }
+      footer section .wappen {
+        max-width: 35%;
+      }
 
 footer p {
   display: block;
