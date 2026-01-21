@@ -19,8 +19,8 @@ header {
   header section {
     display: flex;
     padding: 20px;
-    align-items: flex-start;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
   }
     header section img {
       max-width: 90px;
@@ -42,8 +42,8 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  text-align: center;
-  padding: 15px 0;
+  /*text-align: center;*/
+  /*padding: 15px 0;*/
   color: #fff2e6;
 }
 
