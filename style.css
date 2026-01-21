@@ -23,7 +23,7 @@ header {
     gap: 10px;
   }
     header section img {
-      max-width: 90px;
+      max-width: 80px;
       margin-bottom: -100px;
       z-index: 2;
     }
