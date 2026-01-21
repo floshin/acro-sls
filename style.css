@@ -23,6 +23,7 @@ header {
     header section img {
       max-width: 90px;
       margin-bottom: -50px;
+      z-index: 2;
     }
 
 h1, h2, h3, h4 {
@@ -57,6 +58,7 @@ p {
 .about {
  /* display: flex; // Desktop Only */
 /*padding: 0 15px 30px;*/
+  z-index: 0;
 }
 
 img {
