@@ -20,7 +20,7 @@ header {
     display: flex;
   }
     header section img {
-      max-width: 150px;
+      max-width: 90px;
     }
 
 h1, h2, h3, h4 {
