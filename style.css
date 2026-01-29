@@ -117,6 +117,13 @@ details p {
   font-size: 14px;
 }
 
+.challenges {
+  margin: 2em 0;
+}
+  .challenges p {
+    font-size: 12px;
+  }
+
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
 
