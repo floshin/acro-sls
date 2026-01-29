@@ -157,7 +157,7 @@ footer {
   font-size: 12px;
   text-align: center;
 }
-  footer section {
+  footer .footer-graphics {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -166,7 +166,7 @@ footer {
       max-width: 45%;
     }
       footer section .wappen {
-        max-width: 30%;
+        max-width: 95%;
       }
 
 footer p {
