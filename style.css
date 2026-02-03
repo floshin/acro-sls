@@ -96,10 +96,8 @@ img {
    }
 */
   .training { background: #000; }
-  .training h3 { margin-top: 30px; }
-
-  .training .bright h3 {
-    margin-top: 30px;
+  .training .bright {
+    padding: 1px 0 20px;
   }
 
   .schedule section {
