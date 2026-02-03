@@ -184,10 +184,15 @@ footer {
   }
     footer section img {
       max-width: 45%;
+      max-height: 300px;
     }
       footer section .wappen {
         max-width: 80%;
       }
+      @media only screen and (min-width: 820px) {
+        footer section .wappen { max-width: 100%; }
+      }
+
 
 footer p {
   display: block;
