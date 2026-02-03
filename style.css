@@ -98,6 +98,10 @@ img {
   .training { background: #000; }
   .training h3 { margin-top: 30px; }
 
+  .training .bright h3 {
+    margin-top: 30px;
+  }
+
   .schedule section {
     margin-top: 10px;
     padding: 10px;
@@ -192,3 +196,7 @@ footer p {
 a {
   color: inherit;
 }
+
+::selection {
+  background: #44414e;
+  color: #fefefe;
