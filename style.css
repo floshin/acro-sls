@@ -127,6 +127,7 @@ details p {
 
 .challenges {
   background: #4e4143;
+  color: #fff;
 }
 
 details[open] > summary { list-style-type: '▲'; }
@@ -159,6 +160,7 @@ tr:nth-child(even) {
 footer {
   width: 100%;
   margin: 0;
+  padding-top: 50px;
   font-size: 12px;
   text-align: center;
   background: #000;
