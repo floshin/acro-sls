@@ -128,7 +128,7 @@ details p {
   background: #4e4143;
   color: #fff;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 details[open] > summary { list-style-type: '▲'; }
