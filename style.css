@@ -84,7 +84,6 @@ img {
 .bright {
   background: #fff2e6;
   color: #000;
-  padding-bottom: 30px; 
 }
 
 .show {
@@ -128,6 +127,8 @@ details p {
 .challenges {
   background: #4e4143;
   color: #fff;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 details[open] > summary { list-style-type: '▲'; }
