@@ -126,12 +126,8 @@ details p {
 }
 
 .challenges {
-  background: #000;
-  padding: 2em 0;
+  background: #4e4143;
 }
-  .challenges p {
-    font-size: 12px;
-  }
 
 details[open] > summary { list-style-type: '▲'; }
 summary::marker { padding-right: 10px; }
