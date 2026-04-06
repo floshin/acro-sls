@@ -104,6 +104,12 @@ img {
     padding: 10px;
   }
 
+  .schedule summary {
+    padding: 10px;
+    padding-left: 10px;
+    padding-left: 25px;
+  }
+
 summary h4 { 
   font-size: inherit; 
   display: inline-block; 
@@ -112,7 +118,7 @@ summary h4 {
 summary { 
   list-style-type: '▼'; 
   margin: 0;
-  padding: 0 15px; 
+  cursor: pointer;
 } 
 
 details {
@@ -120,15 +126,26 @@ details {
   margin: 0;
 }
 
+.challenges details summary {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+  
 details p {
   font-size: 14px;
+}
+
+.schedule p {
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.5); 
 }
 
 .challenges {
   background: #4e4143;
   color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .challenges h4 {
@@ -142,6 +159,7 @@ table {
   width: 100%; 
   border-collapse: collapse;
   font-size: 14px;
+  border-top: 5px solid black;
 }
 
 th { 
@@ -160,7 +178,14 @@ tr:nth-child(even) {
 .recreational { background: #44414e; /* blue */ }
 .professional { background: #4e4143; /* red */ }
 .elite { background: #493131; /* redder */ }
-.contact { background: #63233b; }
+
+.contact {
+  background: #63233b;
+  padding: 5px 10px 10px;
+}
+  .contact p {
+    margin-top: 10px;
+  }
 
 footer {
   width: 100%;
