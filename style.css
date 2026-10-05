@@ -20,7 +20,8 @@ body {
   }
 
 header {
-  background: #fff2e6;
+  background: #ff5673; /* 2026 Pink */
+  /* background: #fff2e6; /* Beige 2025 */
   color: #000;
   font-family: "Futura";
 }
