@@ -105,11 +105,6 @@ img {
     padding: 1px 0 20px;
   }
 
-  .discipline {
-    background: #44414e; /* blue */
-    padding: 20px 0;
-  }
-
   .schedule section {
     margin-top: 10px;
   }
@@ -136,12 +131,6 @@ details {
   margin: 0;
 }
 
-.challenges details summary {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 25px;
-}
-  
 details p {
   font-size: 14px;
 }
@@ -153,12 +142,24 @@ details p {
   background: rgba(0, 0, 0, 0.5); 
 }
 
+.challenges, .discipline {
+  padding: 20px 0;
+} 
+
+.challenges summary, .discipline summary {
+  padding-left: 25px;
+}
+
 .challenges {
   background: #4e4143;
   color: #fff;
 }
 
-.challenges h4 {
+.discipline {
+  background: #44414e; /* blue */
+}
+
+.challenges h4, .discipline h4 {
   text-decoration: underline;
 }
 
