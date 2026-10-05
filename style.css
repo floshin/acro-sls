@@ -77,8 +77,10 @@ h3 { font-size: 1.5em; }
 
 .bright h3 {
   padding: 10px;
-  border: 5px solid black; 
+  border-top: 5px solid black; 
+  border-bottom: 5px solid black; 
   text-align: center;
+  margin: 0;
 }
 
 p {
