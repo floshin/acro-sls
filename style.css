@@ -102,8 +102,10 @@ img {
 
 .news {
   padding: 20px 0;
-  background: #fff;
-  color: #000;
+  background: #44414e; /* greyblue */ 
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .news img {
