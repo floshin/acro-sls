@@ -105,7 +105,9 @@ img {
   background: #44414e; /* greyblue */ 
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
 }
 
 .news img {
