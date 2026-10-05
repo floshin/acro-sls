@@ -146,19 +146,12 @@ details p {
 
 .challenges, .discipline {
   padding: 20px 0;
+  background: #44414e; /* greyblue */
+  color: #fff;
 } 
 
 .challenges summary, .discipline summary {
   padding-left: 25px;
-}
-
-.challenges {
-  background: #4e4143;
-  color: #fff;
-}
-
-.discipline {
-  background: #44414e; /* blue */
 }
 
 .challenges h4, .discipline h4 {
