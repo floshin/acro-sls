@@ -105,6 +105,10 @@ img {
     padding: 1px 0 20px;
   }
 
+  .discipline {
+    background: #44414e; /* blue */
+  }
+
   .schedule section {
     margin-top: 10px;
   }
