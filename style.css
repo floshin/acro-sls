@@ -99,6 +99,17 @@ p {
 img {
   max-width: 100%;
 }
+
+.news {
+  padding: 20px 0;
+  background: #fff;
+}
+
+.news img {
+  border: 5px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
   
 .bright {
   background: #fff; /* 2026 White */
