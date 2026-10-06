@@ -202,10 +202,25 @@
     }
 
     .slogan {
-        border-left: 3px solid #ddd;
-        margin: 10% auto 0;
-        padding-bottom: 25%;
-    } 
+        max-width: 190px;
+    }
+    
+    .slogan h1 {
+      font-size: 70px;
+      font-family: Helvetica, Arial, sans-serif;
+      margin-left: 30px;
+      margin-top: -20%;
+    }
+
+    @media (max-width: 1200px;)
+    {
+        .slogan {
+          order: 1;
+          border-left: 3px solid #ddd;
+          margin: 10% auto 0;
+          padding-bottom: 25%;
+        }
+    }
 
     .intro {
       background: #1D2951; /* dark blue */ 
