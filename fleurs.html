@@ -27,12 +27,15 @@
         <ul>
             <li>Among the Waves</li>
         </ul>
+
         
-      <h2>Unterstützt von</h2>
-        <ul>
-            <li>TV 1879 Roden</li>
-            <li>...</li>
-        </ul>
+      <section class="support">
+          <h2>Unterstützt von</h2>
+          <ul>
+            <li><img src="tvroden.png" alt="TV 1879 Roden"></li>
+            <li><img src="assets/top-logo.png" alt="Stadt Saarlouis"></li>
+          </ul>
+      </section>
         
     </main>
       
@@ -49,10 +52,18 @@
 </html>
 
 <style>
-@font-face {
-  font-family: "Futura";
-  src: url(OPTIFuturaDemiBold.otf) format("truetype");
-}
+
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+    
+  @font-face {
+    font-family: "Futura";
+    src: url(OPTIFuturaDemiBold.otf) format("truetype");
+  }
     
   body {
     background: #000;
@@ -78,6 +89,16 @@
 
     h1, h2, h3, h4 {
       font-family: Futura;
+    }
+
+    .support ul {
+      display: flex;
+      gap: 2em;
+      list-style-type: none; 
+    }
+
+    footer {
+      text-align: center; 
     }
 </style>
 
