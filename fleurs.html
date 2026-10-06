@@ -26,7 +26,6 @@
     <img class="bg" src="backgirl2.png">  
         
     <section class="cover">
-     <section id="head"> 
       <section class="slogan">
         <h1>We are in love with acro .</h1> 
       </section>
@@ -34,7 +33,6 @@
       <section class="intro">
         <p>Ein Generationen übergreifendes Ensemble von Sportakrobaten in und um Saarlouis.</p> 
       </section>
-    </section>
     </section>
 
     <section class="shows">     
@@ -122,12 +120,6 @@
     }
 } 
 
-   #head {
-    max-width: 600px;
-    display: flex;
-    min-height: 100%;
-   } 
-   
     header {
       display: flex;
     }
@@ -138,10 +130,6 @@
       margin: 2em;
     }
 
-    .cover {
-      
-    }
-    
     img {
       max-width: 100%;
     }
@@ -161,22 +149,24 @@
 
     .cover {
       /*background: #0d0d0d;*/
-    }
-
-    .cover {
+        
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-evenly;
+
+      max-width: 600px;
+      min-height: 100%;
       /*padding: 1em;*/
       margin: 2% 0;
       min-height: 100%;
 
-    opacity: 0;
-    animation: main-blend 2s steps(60, end) forwards;
-    -webkit-user-select: none;
-    user-select: none;
-    animation-delay: 2s;
-}
+      opacity: 0;
+      animation: main-blend 2s steps(60, end) forwards;
+      -webkit-user-select: none;
+      user-select: none;
+      animation-delay: 2s;
+    }
 
 @keyframes main-blend {
     0% {
@@ -221,22 +211,14 @@
           padding-bottom: 25%;
         }
         
-        #head {
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        }
-
         header {
           position: fixed;
         }
         
         .cover {
           position: relative;
-          flex-direction: row;
+          justify-content: center;
+          align-items: center;
           padding: 40% 0 0;
           width: 100%;
           margin: 0;
