@@ -18,16 +18,15 @@
     <header>
       <a href="/">
           <img src="assets/logolight.png">
+
       </a>
       <!--<img src="IMG_20250526_213327.jpg" alt="Acro Saarlouis Logo der Sportakrobatikabteilung des TV 1879 Saarlouis-Roden">-->
       <h1>acro saarlouis</h1>  
     </header>
   
-    <img class="bg" src="backgirl2.png"> 
-    
-    <main class="cover">
-    <section id="head">
-        
+    <section class="cover">
+      <img class="bg" src="backgirl2.png">  
+      
       <section class="slogan">
         <h1>We are in love with acro .</h1> 
       </section>
@@ -159,17 +158,17 @@
     }*/
 
     .cover {
-      background: #0d0d0d;
+      /*background: #0d0d0d;*/
     }
 
     .cover {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 16%;
-    padding: 1em;
-    margin: 2% 0;
-    min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      /*padding: 1em;*/
+      margin: 2% 0;
+      min-height: 100%;
 
     opacity: 0;
     animation: main-blend 2s steps(60, end) forwards;
