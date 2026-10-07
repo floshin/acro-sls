@@ -42,6 +42,7 @@
     <section class="shows">     
       <h2>Show</h2>
         <span class="moon"></span>
+        <span class="moon2"></span>
         <ul>
             <li>
                 <h3>Among the Waves of the Moon</h3> 
@@ -258,17 +259,24 @@
         padding-top: 15px;
       }
 
-    .moon {
+    .moon, .moon2 {
       height: 85px;
       width: 85px;
       background-color: #ddd;
       border-radius: 50%;
-      display: inline-block;
-      text-align: right;
-      margin-top: -50px;
+      display: inline-block;     
       position: absolute; 
-      top: 0;
-      right: 20px;
+      top: 0; 
+    }
+
+    .moon {
+      margin-top: -50px;
+      right: 40px;     
+    }
+
+    .moon2 {
+      margin-top: -150px;
+      left: 30px;
     }
 
     .support {
