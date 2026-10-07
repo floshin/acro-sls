@@ -46,7 +46,7 @@
      <img class="h2h" src="assets/h2h.png">   
         
     <section class="shows">     
-      <h2>Show I</h2>
+      <h2>Show</h2>
         <span class="moon"></span>
         <ul>
             <li>
@@ -58,8 +58,8 @@
     </section>
 
 	<section class="ensemble">
-		<h2>team</h2>
-		Our ensemble consists of acrobats and coaches from X clubs around Saarlouis. 
+		<h2>Team</h2>
+		<p>Our ensemble consists of acrobats and coaches from X clubs around Saarlouis.</p> 
 		<ul>
 			<li>Florian</li>
 			<li>Alena</li>
@@ -75,7 +75,7 @@
     </section>    
 
     <section class="sportsacro">
-      <h2>Sportakrobatik</h2>
+      <h2>Sportacro</h2>
       <p>Die Fleurs sind Sportakrobaten bei <!--[oder in einer Kooperation von?]--> <a href="https://acro-sls.de">Acro Saarlouis</a> (TV 1879 Roden)<!--[und Sportakrobatik Schwalbach-Griesborn?], zwei lokalen Vereinen, denen jeder beitreten kann-->, unserem lokalen Verein. In Osteuropa wird die Sportakrobatik aufgrund ihrer umfassenden Bewegungsschulung auch als "Fundament" des Sports beschrieben. Wenn du auch mit uns auf die Bühne möchtest, führt der Weg über den Sport. Unser Ensemble haben wir nicht zuletzt deshalb gegründet, weil wir eben jener Bewegungskunst, die in der Sportakrobatik ihren höchsten Ausdruck findet, hier in unserer Region die ihr gebührende Aufmerksamkeit verschaffen wollen.</p>
       </section>
     </section>
@@ -324,11 +324,10 @@
     }
       .shows h2 {
         padding-bottom: 15px;
-        text-transform: uppercase;
-        font-size: 16px;
-        letter-spacing: 5px;
-        font-weight: normal;
-        font-family: monospace;
+		font-size: 70px;
+ 		font-weight: normal;
+  		font-family: Elven;
+		margin-top: -80px;
       }
       .shows ul {
         list-style-type: none;
@@ -367,20 +366,27 @@
         font-weight: normal;
         font-size: 70px;
       }
+	  .ensemble p {
+        padding: 20px 20px 30px; 
+	  }
 	  .ensemble ul {
         display: flex;
 	    list-style-type: none;
 		padding: 0;
 		gap: 10px;
-		justify-content: space-around;
+		justify-content: center;
+        flex-wrap: wrap;
+		width: 100%;
 	  }
 		.ensemble ul li {
-          width: 300px;
-		  height: 400px;
+		  width: 48%;
+		  height: auto;
+		  min-height: 250px;
 		  background: #232830;
 		  display: flex;
 		  justify-content: center;
-		  align-items: center;
+		  align-items: flex-end;
+		  padding-bottom: 20px;
 		}
 
     /* SPORTS SECTION */
@@ -414,6 +420,10 @@
     }
 	  .sportsacro h2 {
         padding-bottom: 15px;
+	    font-family: Elven;
+	    font-size: 70px;
+	    font-weight: normal;
+	    margin-top: -75px;
 	  }
 
 	
