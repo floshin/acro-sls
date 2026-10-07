@@ -53,10 +53,22 @@
                 <h3>Among the Waves of the Moon</h3> 
                 <p>Our first show will accompany three girls, acrobatic flowers in growth, living on an island of safety. They try to cross the ocean of childhood, but are threatened to be carried away by the nymphs. Together they try to survive the waves of uncertainty. This is their story, told through acrobatic movement.</p>        
                 <p>Minimal stage-, costume- and light design, with music by Clann.</p> 
-            </li>
-            
+            </li>        
         </ul>
     </section>
+
+	<section class="ensemble">
+		<h2>team</h2>
+		Our ensemble consists of acrobats and coaches from X clubs around Saarlouis. 
+		<ul>
+			<li>Florian</li>
+			<li>Alena</li>
+			<li>Maja</li>
+			<li>Anna</li>
+			<li>Mayla</li>
+			<li>....</li>
+		</ul>
+	</section>
 
     <section class="sports">
         <img src="assets/acro-sls-white.png" alt="Acro Saarlouis">
@@ -120,7 +132,12 @@
     
   @font-face {
     font-family: "Futura";
-    src: url(OPTIFuturaDemiBold.otf) format("truetype");
+    src: url(assets/fonts/OPTIFuturaDemiBold.otf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Elven";
+    src: url(assets/fonts/elvencommonspeak.ttf) format("truetype");
   }
     
   body {
@@ -337,6 +354,34 @@
       margin-top: -50px;
       right: 110px;     
     }
+
+	.ensemble {
+      background: #0d0d0d;
+      font-size: 20px;
+	  line-height: 1.3;
+	  padding: 60px 40px 80px;
+	}
+	  .ensemble h2 {
+	    padding-bottom: 15px;
+		font-family: Elven;
+        font-weight: normal;
+        font-size: 70px;
+      }
+	  .ensemble ul {
+        display: flex;
+	    list-style-type: none;
+		padding: 0;
+		gap: 10px;
+		justify-content: space-around;
+	  }
+		.ensemble ul li {
+          width: 300px;
+		  height: 400px;
+		  background: #232830;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		}
 
     /* SPORTS SECTION */
 
