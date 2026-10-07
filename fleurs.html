@@ -61,12 +61,37 @@
 		<h2>Team</h2>
 		<p>Our ensemble consists of acrobats and coaches from X clubs around Saarlouis.</p> 
 		<ul>
-			<li><img src="assets/flosha.jpg"><h4>Florian</h4></li>
-			<li><h4>Alena</h4></li>
-			<li><h4>Maja</h4></li>
-			<li><h4>FAnna</h4></li>
-			<li><h4>FMayla</h4></li>
-			<li>....</h4></li>
+			<li>
+				<figure>
+					<img src="assets/flosha2.jpg">
+					<figcaption><h4>Florian</h4></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<figcaption><h4>Alena</h4></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<figcaption><h4>Maja</h4></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<figcaption><h4>Anna</h4></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<figcaption><h4>Mayla</h4></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<figcaption><h4>...</h4></figcaption>
+				</figure>
+			</li>
 		</ul>
 	</section>
 
@@ -385,13 +410,19 @@
 		  background: #232830;
 		}
 		.ensemble ul li h4 {
-		  position: absolute;
-		  bottom: 20px;
+		  font-weight: normal;
+		  background: #000;
+          padding: 15px;
 		}
 		.ensemble ul li img {
-		  width: 100%;
-		  height: 100%; 
 		  object-fit: cover;
+		  border-radius: 50%;
+		}
+
+		.ensemble ul li figure {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 		}
 
     /* SPORTS SECTION */
