@@ -31,10 +31,11 @@
       </section>
     </section>
     
-    <section class="intro">
+    <section class="wrapper">
       <h2>Fleurs de la Sarre</h2>
-      <p>Ein Generationen übergreifendes Ensemble von Akrobaten in und um Saarlouis. Die Technik der Sportakrobatik vereint mit der kreativen Freiheit des zeitgenössischen Zirkus.</p> 
-    </section>
+      <section class="intro">
+        <p>Ein Generationen übergreifendes Ensemble von Akrobaten in und um Saarlouis. Die Technik der Sportakrobatik vereint mit der kreativen Freiheit des zeitgenössischen Zirkus.</p> 
+      </section>
 
     <section class="h2h">
     </section>
@@ -55,6 +56,7 @@
 
     <img src="show.jpg">
 
+    </section>
     <section class="organisation">
       <div>
         <p>
@@ -148,7 +150,6 @@
 
     header {
       position: sticky; 
-      top: 0;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -225,10 +226,11 @@
         padding: 0 40px;
     }
 
-    .intro h2 {
+    .wrapper>h2 {
       text-transform: lowercase;
       padding: 20px 20px 20px;
-      position: fixed; 
+      background: #0d0d0d;
+      position: sticky; 
       top: 0;
       width: 100%;
     }
