@@ -126,6 +126,7 @@
     .title {
       background-image: url("assets/bg.jpg");
       background-size: cover; 
+      height: 90vh;
     }
 
   .bg {
@@ -200,17 +201,20 @@
 
       max-width: 100%;
       min-height: 100%;
-      /*padding: 1em;*/
-      padding: 40% 0 0; 
-      margin: 2% 0 0;
+      /*padding: 1em;*/ 
+      /*margin: 2% 0 0;*/
 
-      z-index: 4;
+      z-index: 3;
 
       opacity: 0;
       animation: main-blend 2s steps(60, end) forwards;
       -webkit-user-select: none;
       user-select: none;
       animation-delay: 2s;
+
+      position: absolute;
+      z-index: 1;
+      top: 0;
     }
 
 @keyframes main-blend {
@@ -238,6 +242,8 @@
     .wrapper {
         padding-top: 40px;
         background: #0d0d0d;
+        position: relative;
+        z-index: 2; 
     }
     
     .wrapper>h2 {
