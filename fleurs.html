@@ -58,7 +58,17 @@
         </ul>
     </section>
 
-    <img src="show.jpg">
+    <section class="sports">
+        <img src="assets/img/logo/acro-sls-logo-2024-all-white2.png" alt="X">
+    </section>    
+
+    <section>
+      <h2>Sportakrobatik</h2>
+      <section>
+        <p>Die Fleurs sind Sportakrobaten bei (oder in einer Kooperation von?) <a href="https://acro-sls.de">Acro Saarlouis</a> (vom TV 1879 Roden) und Sportakrobatik Schwalbach-Griesborn, zwei lokalen Vereinen, denen jeder beitreten kann. In Osteuropa wird die Sportakrobatik aufgrund ihrer Komplexität auch als "Fundament" des Sports beschrieben. Wenn du auch mit uns auf die Bühne möchtest, führt der Weg über diesen Sport.</p>
+      </section>
+    </section>
+        <!--<p>Tritt unserem lokalen Akrobatikverein bei.</p>-->
 
     </section>
     <section class="organisation">
@@ -328,6 +338,60 @@
       right: 110px;     
     }
 
+
+    /* SPORTS SECTION */
+
+    .sports {
+  display: flex;
+  justify-content: space-between;
+	align-items: flex-start;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+  
+  background: url("assets/sports.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+
+}
+  .sports img {
+    max-height: 30vh;
+    margin: 30px;
+  }
+
+  .sports section {
+    width: 100%;
+  }
+
+  .sports section>section {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+  }
+
+  .sports h2 {
+    margin-bottom: 2px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .sports p {
+    max-width: 800px;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 22px;
+  }
+
+    /* END SECTION */
+    
     .organisation {
      /* background: #1D2951; */ /* darkblue */
       background: #0d0d0d;
