@@ -61,12 +61,12 @@
 		<h2>Team</h2>
 		<p>Our ensemble consists of acrobats and coaches from X clubs around Saarlouis.</p> 
 		<ul>
-			<li>Florian</li>
-			<li>Alena</li>
-			<li>Maja</li>
-			<li>Anna</li>
-			<li>Mayla</li>
-			<li>....</li>
+			<li><img src="assets/flosha.jpg"><h4>Florian</h4></li>
+			<li><h4>Alena</h4></li>
+			<li><h4>Maja</h4></li>
+			<li><h4>FAnna</h4></li>
+			<li><h4>FMayla</h4></li>
+			<li>....</h4></li>
 		</ul>
 	</section>
 
@@ -383,10 +383,15 @@
 		  height: auto;
 		  min-height: 250px;
 		  background: #232830;
-		  display: flex;
-		  justify-content: center;
-		  align-items: flex-end;
-		  padding-bottom: 20px;
+		}
+		.ensemble ul li h4 {
+		  position: absolute;
+		  bottom: 20px;
+		}
+		.ensemble ul li img {
+		  width: 100%;
+		  height: 100%; 
+		  object-fit: cover;
 		}
 
     /* SPORTS SECTION */
