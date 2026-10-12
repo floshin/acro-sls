@@ -311,10 +311,10 @@ footer {
       height: 150px;
     }
       footer section .wappen {
-        height: 130px;
+        height: 110px;
       }
       @media only screen and (min-width: 820px) {
-        footer section .wappen { max-width: 100%; }
+        footer section .wappen {  }
       }
 
 
