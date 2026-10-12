@@ -219,6 +219,12 @@ img {
     padding-bottom: 40px;
   }
 
+  .probetraining {
+    background: background: #232830; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
   .training { 
     background: #0d0d0d; 
     color: #ddd; 
