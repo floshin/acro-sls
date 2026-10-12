@@ -174,7 +174,7 @@ img {
 
 .news {
   padding: 20px 0;
-  background: #0d0d0d; /* greyblue */ 
+  background: #0d0d0d; 
   color: #ddd;
   display: flex;
   flex-direction: column;
@@ -199,7 +199,7 @@ img {
 }
 
 .show {
-  background: #0d0d0d; 
+  background: #44414e; 
   color: #ddd;
   padding-bottom: 20px; 
 }
