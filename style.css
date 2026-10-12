@@ -72,6 +72,7 @@ header {
     background: #fff; /* 2026 White */
     /* background: #fff2e6; /* Beige 2025 */
     color: #000;
+    padding-left: none;
   }
 }
 
@@ -85,7 +86,10 @@ header h1 {
   animation-range: 0px 200px;
 }
   @media only screen and (min-width: 820px) {
-    header h1 { font-size: 7em; }
+    header h1 { 
+      font-size: 7em; 
+      animation: none;
+    }
   }
 
   .shield {
