@@ -187,6 +187,12 @@ img {
      margin-top: -20px;
    }
 */
+
+  .join {
+    background: #44414e; /* greyblue */ 
+    color: #fff;
+  }
+
   .training { 
     background: #0d0d0d; 
     color: #ddd; 
