@@ -45,6 +45,10 @@ body {
   }
 }
 
+.top-logo {
+  background: #282837;
+}
+
 header {
   background: #0d0d0d; 
   color: #ddd;
