@@ -170,9 +170,12 @@ img {
 }
   
 .bright {
-  background: #fff; /* 2026 White */
-  /* background: #fff2e6; /* Beige 2025 */
-  color: #000;
+  background: #0d0d0d; 
+  color: #ddd;
+}
+
+.whatitis {
+  font-size: 28px;
 }
 
 .show {
