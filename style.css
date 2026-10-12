@@ -195,7 +195,15 @@ img {
 
 .whatitis {
   font-size: 28px;
+  background: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: sticky;
+  top: 60px;
 }
+      @media only screen and (min-width: 820px) {
+        .whatitis { position: initial; }
+      }
 
 /*   .show h3 {
      margin-top: -20px;
