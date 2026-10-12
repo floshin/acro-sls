@@ -290,11 +290,11 @@ footer {
   footer .footer-graphics {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 30px;
   }
     footer section img {
-      max-width: 45%;
-      max-height: 300px;
+      max-width: 35%;
+      max-height: 200px;
     }
       footer section .wappen {
         max-width: 80%;
