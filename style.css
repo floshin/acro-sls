@@ -133,8 +133,10 @@ header h1 {
 }
   .sport {
     width: 50%;
+    background: #4A2829;
   }
   .show {
+    background: #232830;
     width: 50%;
   }
 
@@ -172,8 +174,8 @@ img {
 
 .news {
   padding: 20px 0;
-  background: #44414e; /* greyblue */ 
-  color: #fff;
+  background: #0d0d0d; /* greyblue */ 
+  color: #ddd;
   display: flex;
   flex-direction: column;
   justify-content: center;
