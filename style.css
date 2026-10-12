@@ -132,7 +132,7 @@ header h1 {
   display: flex;
   padding-top: 30px;
 }
-  .sport .show {
+  .sport, .show {
     padding-bottom: 30px;
     width: 50%;
   }
