@@ -200,6 +200,8 @@ img {
   padding-bottom: 15px;
   position: sticky;
   top: 60px;
+  margin-top: -2px;
+  margin-bottom: 0;
 }
       @media only screen and (min-width: 820px) {
         .whatitis { position: initial; }
