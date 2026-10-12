@@ -24,11 +24,13 @@ body {
 @keyframes shrink-header {
   from {
     padding-block: 0.8rem;
+    justify-content: center;
     /*background-color: rgba(255, 255, 255, 1);*/
     /*border-bottom: 1px solid transparent;*/
   }
   to {
     padding-block: 0.5rem;
+    justify-content: flex-start; 
     /*background-color: rgba(245, 245, 245, 0.95);*/
     /*border-bottom: 1px solid #ddd;*/
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -38,6 +40,7 @@ body {
 @keyframes shrink-font {
   from {
     font-size: 3.4rem;
+    
   }
   to {
     font-size: 2.4rem;
@@ -175,14 +178,18 @@ img {
 }
 
 .show {
-  background: #000;
+  background: #0d0d0d; 
+  color: #ddd;
   padding-bottom: 20px; 
 }
 /*   .show h3 {
      margin-top: -20px;
    }
 */
-  .training { background: #000; }
+  .training { 
+    background: #0d0d0d; 
+    color: #ddd; 
+  }
   .training .bright {
     padding-bottom: 20px;
   }
@@ -279,7 +286,8 @@ footer {
   padding-top: 50px;
   font-size: 12px;
   text-align: center;
-  background: #000;
+  background: #0d0d0d; 
+  color: #ddd;
 }
   footer .footer-graphics {
     display: flex;
@@ -302,7 +310,6 @@ footer p {
   display: block;
   margin: 25px 0 0;
   padding: 15px;
-  background: #44414e; /* blue */
 }
 
 a {
