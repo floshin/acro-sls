@@ -326,6 +326,8 @@ tr:nth-child(even) {
 
   .contact p {
     margin-top: 10px;
+    font-size: calc((.3375rem + .1vw) * 2.22222);
+    line-height: calc((.3375rem + .1vw) * 3.5);
   }
 
 footer {
