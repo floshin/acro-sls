@@ -133,6 +133,7 @@ header h1 {
   padding-top: 30px;
 }
   .sport, .show {
+    font-size: 14px;
     padding-bottom: 30px;
     width: 50%;
   }
