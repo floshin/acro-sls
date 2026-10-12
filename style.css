@@ -72,33 +72,33 @@ header h1 {
   animation-range: 0px 200px;
 }
 
-  header section {
+  .shield {
     display: flex;
     background: #44414e; /* greyblue */ 
     padding: 20px;
     align-items: center;
     justify-content: space-around;
   }
-    header section img {
+    .shield img {
       max-width: 80px;
       margin-bottom: -80px;
       filter: grayscale(100%); 
       z-index: 2;
     }
       @media only screen and (min-width: 820px) {
-        header section img { max-width: 200px; }
+        .shield img { max-width: 200px; }
       }
 
-    header section h2 {
+    .shield h2 {
       padding: 0;
       color: #fff; 
       font-size: 1em;
     }
       @media only screen and (min-width: 820px) {
-        header section h2 { font-size: 2em; }
+        .shield h2 { font-size: 2em; }
       }
 
-    header a { text-decoration: none; }
+    .shield a { text-decoration: none; }
 
 .sport-bg {
   filter: grayscale(90%); 
