@@ -200,7 +200,6 @@ img {
 
 .whatitis {
   font-size: 28px;
-  background: black;
   padding-top: 15px;
   padding-bottom: 15px;
  /* position: sticky;
@@ -340,7 +339,6 @@ footer {
   /*border-top: 1px solid rgba(255, 255, 255, 0.3);*/  
   width: 100%;
   margin: 0;
-  padding-top: 50px;
   font-size: 12px;
   text-align: center;
   background: #0d0d0d; 
