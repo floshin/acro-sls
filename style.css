@@ -139,6 +139,10 @@ header h1 {
   }
   .sport { background: #4A2829; }
   .show { background: #232830; }
+      @media only screen and (min-width: 820px) {
+        .sport, .show { font-size: inherit; }
+      }
+
 
 h2, h3, h4 {
   padding: 0 15px;
