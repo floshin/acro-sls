@@ -130,15 +130,14 @@ header h1 {
 
 .sport-show {
   display: flex;
+  padding-top: 30px;
 }
-  .sport {
-    width: 50%;
-    background: #4A2829;
-  }
-  .show {
-    background: #232830;
+  .sport .show {
+    padding-bottom: 30px;
     width: 50%;
   }
+  .sport { background: #4A2829; }
+  .show { background: #232830; }
 
 h2, h3, h4 {
   padding: 0 15px;
@@ -198,9 +197,6 @@ img {
   font-size: 28px;
 }
 
-.show {
-  padding-bottom: 20px; 
-}
 /*   .show h3 {
      margin-top: -20px;
    }
