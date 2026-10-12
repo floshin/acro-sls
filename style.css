@@ -4,8 +4,10 @@
 }
 
 body {
-  background: #1b1b1b;
-  color: #fefefe;
+ /* background: #1b1b1b;
+  color: #fefefe;*/
+  background: #0d0d0d; 
+  color: #ddd;
   font-family: helvetica, arial;
   margin: 0;
 }
@@ -48,6 +50,7 @@ header {
   font-family: "Futura";
   margin: 0;
   padding: 0;
+  padding-left: 20px;
 
   position: sticky;
   top: 0;
