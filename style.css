@@ -195,6 +195,8 @@ img {
   .join {
     background: #44414e; /* greyblue */ 
     color: #fff;
+    padding-top: 10px;
+    padding-bottom: 40px;
   }
 
   .training { 
