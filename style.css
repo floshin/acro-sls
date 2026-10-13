@@ -276,6 +276,15 @@ details p {
   font-size: 14px;
 }
 
+.green, .blue, .violet, .red, .black {
+  clip-path: circle(15px);
+}
+  .green { background: green; }
+  .blue { background: blue; }
+  .violet { background: violet; }
+  .red { background: red; }
+  .black { background: black; }
+
 .schedule p {
   display: block;
   margin: 0;
