@@ -282,15 +282,15 @@ details p {
   font-size: 14px;
 }
 
-.green, .blue, .violet, .red, .black {
+.green, .blue, .purple, .red, .black {
   height: 18px;
   width: 18px;
   border-radius: 50%;
 }
-  .green { background: green; }
-  .blue { background: lightblue; }
-  .violet { background: purple; }
-  .red { background: red; }
+  .green { background: mediumaquamarine; }
+  .blue { background: royalblue; }
+  .purple { background: mediumpurple; }
+  .red { background: crimson; }
   .black { background: black; }
 
 .schedule p {
