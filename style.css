@@ -271,7 +271,6 @@ summary>section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 85%;
 }
 
 details {
