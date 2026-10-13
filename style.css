@@ -258,10 +258,7 @@ img {
 
 summary h4 { 
   font-size: inherit; 
-  /*display: inline-block; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-block;
 }
 
 summary { 
@@ -269,6 +266,12 @@ summary {
   margin: 0;
   cursor: pointer;
 } 
+
+summary section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 details {
   padding: 0;
@@ -280,13 +283,13 @@ details p {
 }
 
 .green, .blue, .violet, .red, .black {
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 18px;
   border-radius: 50%;
 }
   .green { background: green; }
-  .blue { background: blue; }
-  .violet { background: violet; }
+  .blue { background: lightblue; }
+  .violet { background: purple; }
   .red { background: red; }
   .black { background: black; }
 
