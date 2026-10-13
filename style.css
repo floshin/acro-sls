@@ -52,6 +52,7 @@ body {
 
 header {
   background: #0d0d0d; 
+  backdrop-filter: blur(10px);
   color: #ddd;
   font-family: "Futura";
   margin: 0;
@@ -70,9 +71,9 @@ header {
 
 @media only screen and (min-width: 820px) {
   header {
-    animation: none;
     position: initial;
-    background: #1e1e1e;
+    animation: none;
+    background: rgba(30, 30, 30, 0.90);
     /*background: #fff;*/ /* 2026 White */
     /* background: #fff2e6; /* Beige 2025 */
     /*color: #000;*/
@@ -95,9 +96,16 @@ header h1 {
   animation-timeline: scroll(root);
   animation-range: 0px 200px;
 }
-  @media only screen and (min-width: 820px) {
+  @media only screen and (min-width: 1100px) {
     header h1 { 
       font-size: 5em; 
+      animation: none;
+      border-right: 10px solid #0d0d0d;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    header h1 { 
+      font-size: 2.5em; 
       animation: none;
       border-right: 10px solid #0d0d0d;
     }
@@ -139,7 +147,7 @@ header h1 {
     .shield-mobile img {
       max-width: 80px;
       margin-bottom: -80px;
-      filter: grayscale(90%); 
+      filter: grayscale(100%); 
       z-index: 2;
     }
       @media only screen and (min-width: 820px) {
@@ -167,6 +175,9 @@ header h1 {
     .intro {
       padding-bottom: 30px;
     }
+      .intro p {
+        padding: 10px 40px 0;
+      }
 
     @media only screen and (min-width: 820px) {
       .intro {
@@ -178,7 +189,8 @@ header h1 {
       }
 
       .intro p {
-        padding: 30px;
+        padding: 20px 30px 0;
+        max-width: 400px;
       }
 
       .intro img {
@@ -188,6 +200,7 @@ header h1 {
 
 .sport-bg {
   filter: grayscale(90%); 
+  /*border: 5px solid black;*/
 }
 
 .sport-show {
@@ -220,6 +233,21 @@ header h1 {
         margin: 0 auto 30px;
         max-width: 60%; 
       }
+
+      .history {
+
+      }
+
+      .history figure {
+        margin: 0;
+        padding: 0;
+      }
+        .history figcaption {
+          font-size: 0.8rem;
+          padding: 1em;
+          margin-top: -4px;
+          background: #2b2b38;
+        }
 
 h2, h3, h4 {
   padding: 0 15px;
@@ -270,7 +298,7 @@ img {
 
     @media only screen and (min-width: 820px) {
       .news {
-        max-width: 600px;
+        max-width: 400px;
       }
     }
 
@@ -288,8 +316,7 @@ img {
 
 .whatitis {
   font-size: 28px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 40px 40px 30px !important;
  /* position: sticky;
   top: 60px; */
   margin-top: -2px;
@@ -359,18 +386,22 @@ img {
 
       .concept {
         background: #1e1e1e;
-        width: 100%;
+        
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
         justify-content: center;
         align-items: center;
-        padding-top: 30px;
-        padding-bottom: 50px;
+        padding: 40px;
       }
-        .concept p {
-          max-width: 700px;
 
+        .concept section:nth-of-type(2) {
+          max-width: 400px;
+          padding-left: 30px;
         }
+
+      .history {
+        max-width: 500px;
+      }
     }
 
   .schedule section {
@@ -393,6 +424,7 @@ summary {
   summary h4 { 
     font-size: inherit; 
     display: inline-block;
+    font-weight: normal;
   }
     summary h4::before {
       content: '▼'; 
@@ -426,6 +458,10 @@ details p {
   border-radius: 50%;
   display: block;
 }
+
+  .salmon { color: #ffbaa3; }
+
+  span.pink { background: pink; }
   span.green { background: mediumaquamarine; }
   span.blue { background: royalblue; }
   span.purple { background: mediumpurple; }
@@ -437,6 +473,7 @@ details p {
 
   details strong { font-weight: normal; }
 
+  strong.pink { color: pink; }
   strong.green { color: mediumaquamarine; }
   strong.blue { color: royalblue; }
   strong.purple { color: mediumpurple; }
@@ -495,9 +532,10 @@ tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.5); 
 }
 
-.beginner { background: #414e45; /* green */ }
+.hyazinth { background: #995569; /* pink */ }
+.smaragd { background: #414e45; /* green */ }
 .recreational { background: #44414e; /* blue */ }
-.professional { background: #55493e; /* red */ }
+.professional { background: #55493e; /* yellow */ }
 .elite { background: #493131; /* redder */ }
 
 .contact {
