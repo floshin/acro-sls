@@ -483,23 +483,19 @@ img {
 
 
   .concept {
+    background: #161616;
+    padding: 30px 20px 30px;
     display: flex;
     flex-direction: column;
   }
 
   .concept section:nth-of-type(1) {
     padding: 1em 1em 2em;
-    border-top: 50px solid #161616;
-    border-right: 20px solid #161616;
-  }
-  .history {
-    border: 20px solid #161616;
   }
 
     .concept h3, .concept p {
       padding-left: 0;
       padding-right: 0;
-      font-weight: normal;
     }
     .concept>section p:nth-of-type(4) {
       font-weight: bold;
@@ -551,7 +547,7 @@ img {
   .schedule summary {
   }
 
-  .schedule>h4 {
+  .schedule h3, .concept h3 {
     font-weight: normal;
     border: 1px solid #ddd;
     display: inline-block;
