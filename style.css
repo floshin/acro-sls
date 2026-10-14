@@ -39,7 +39,6 @@ body {
 @keyframes shrink-font {
   from {
     font-size: 3.4rem;
-    
   }
   to {
     font-size: 2.4rem;
@@ -52,7 +51,6 @@ body {
 
 header {
   background: #0d0d0d; 
-  backdrop-filter: blur(10px);
   color: #ddd;
   font-family: "Futura";
   margin: 0;
@@ -87,7 +85,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 3.4em;
+  /*font-size: 3.4em;*/
   /*font-weight: 700;*/
   font-weight: normal;
   padding: 0 20px 0;
@@ -103,18 +101,11 @@ header h1 {
       border-right: 10px solid #0d0d0d;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 600px) {
     header h1 { 
       font-size: 2.5em; 
       animation: none;
       border-right: 10px solid #0d0d0d;
-    }
-  }
-
-  @media only screen and (min-width: 820px) {
-    .header-wrapper {
-      display: flex;
-      width: 100%;
     }
   }
 
