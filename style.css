@@ -484,13 +484,13 @@ img {
 
   .concept {
     background: #161616;
-    padding: 30px 20px 30px;
+    padding: 10px 20px 30px;
     display: flex;
     flex-direction: column;
   }
 
   .concept section:nth-of-type(1) {
-    padding: 1em 1em 2em;
+    padding-bottom: 2em;
   }
 
     .concept h3, .concept p {
@@ -549,6 +549,7 @@ img {
 
   .schedule h3, .concept h3 {
     font-weight: normal;
+    font-size: 18px;
     border: 1px solid #ddd;
     display: inline-block;
     padding: 1em 1.5em;
