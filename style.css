@@ -561,11 +561,6 @@ img {
 
   .schedule>p {
     font-size: 0.9rem;
-    margin: 1.5em 1em 0;
-
-  }
-
-  .schedule summary {
   }
 
   .schedule h3, .concept h3 {
@@ -646,7 +641,7 @@ details p {
 
 
 .schedule p {
-  padding: 0px 0px 30px;
+  padding: 0 0 10px;
 }
 
 .schedule section p {
