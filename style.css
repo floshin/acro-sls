@@ -50,7 +50,11 @@ body {
 }
 
 header {
-  background: #0d0d0d; 
+  background: linear-gradient(rgba(10,10,10,0.8), rgba(64,64,64,0));
+
+/*  background: #0d0d0d; 
+  background: rgba(20, 20, 20, 0.90);*/
+  backdrop-filter: blur(10px);
   color: #ddd;
   font-family: "Futura";
   margin: 0;
@@ -67,19 +71,44 @@ header {
   animation-range: 0px 200px; 
 }
 
+  header .logo-sm {
+    max-width: 80px;
+    margin-top: -10px;
+    margin-bottom: -8px;
+  }
+
+  .front-bg {
+    display: none;
+  }
+
 @media only screen and (min-width: 820px) {
   header {
-    position: initial;
+    position: sticky;
     animation: none;
-    background: rgba(30, 30, 30, 0.90);
+    background: none;
+    /*background: rgba(30, 30, 30, 0.90); */
     /*background: #fff;*/ /* 2026 White */
     /* background: #fff2e6; /* Beige 2025 */
     /*color: #000;*/
     padding-left: none;
     width: 100%;
+    
     margin: 0;
     padding: 0;
-    justify-content: flex-start;
+    /*justify-content: center;*/
+    background: linear-gradient(rgba(10,10,10,0.8), rgba(64,64,64,0));
+  }
+
+  .front-bg {
+    width: 100%;
+    display: block;
+  }
+
+  header .logo-sm {
+    max-height: 100%;
+    max-width: initial;
+    margin: initial;
+    display: none;
   }
 }
 
@@ -97,17 +126,20 @@ header h1 {
   @media only screen and (min-width: 1100px) {
     header h1 { 
       font-size: 5em; 
+      /*background: rgba(30, 30, 30, 0.90);*/
       animation: none;
-      border-right: 10px solid #0d0d0d;
+      border-right: 5px solid #ddd;
+      /*height: 100%;*/
     }
+
   }
-  @media only screen and (min-width: 600px) {
+ /* @media only screen and (min-width: 600px) {
     header h1 { 
       font-size: 2.5em; 
       animation: none;
       border-right: 10px solid #0d0d0d;
     }
-  }
+  }*/
 
   .shield-mobile {
     display: flex;
@@ -127,9 +159,12 @@ header h1 {
       .shield-desktop { 
         display: flex;
         align-items: center;
+       /* background: rgba(30, 30, 30, 0.90);
+        height: 100%;*/
+        
       }
       header .shield-desktop:nth-of-type(1) {
-        background: #0d0d0d;
+        
       }
       header .shield-desktop:nth-of-type(2) {
         padding-left: 20px;
@@ -158,16 +193,28 @@ header h1 {
       font-size: 1em;
     }
       @media only screen and (min-width: 820px) {
-        .shield h2 { font-size: 2em; }
+        .shield-desktop h2 { 
+          font-size: 2em; 
+          font-weight: normal; 
+        }
       }
 
      .shield-mobile a { text-decoration: none; }
+
+    .intro img {
+     
+    }
 
     .intro {
       padding-bottom: 30px;
     }
       .intro p {
         padding: 10px 40px 0;
+      }
+
+      .intro>section>p {
+        margin-top: 50px;
+        margin-bottom: 50px;
       }
 
     @media only screen and (min-width: 820px) {
@@ -177,10 +224,13 @@ header h1 {
         align-items: flex-start;
         margin-top: 100px;
         margin-bottom: 100px;
+     /*   position: sticky;
+        top: 100px;
+        z-index: -10;  */
       }
 
       .intro p {
-        padding: 20px 30px 0;
+        padding: 20px 40px 0;
         max-width: 400px;
       }
 
@@ -189,6 +239,22 @@ header h1 {
       }
     }
 
+    .whatitis {
+      font-size: 28px;
+    
+      /* position: sticky;
+      top: 60px; */
+      margin-top: -2px;
+      margin-bottom: 0;
+    }
+      @media only screen and (min-width: 820px) {
+        .whatitis { 
+          font-size: 35px;
+          padding: 30px;
+        }
+      } 
+
+
 .sport-bg {
   filter: grayscale(90%); 
   /*border: 5px solid black;*/
@@ -196,37 +262,58 @@ header h1 {
 
 .sport-show {
  /* padding-top: 30px; */
+ padding: 20px;
 }
     @media only screen and (min-width: 820px) {
       .sport-show {
-        max-width: 1000px;
         display: flex;
         justify-content: center;
+        gap: 20px;
+        background: #161616;
+        padding-top: 120px;
+        padding-bottom: 120px;
       }
     }
 
   .sport, .show {
     font-size: 14px;
     padding: 1em;
+    padding-bottom: 2.5em;
   }
-  .sport { background: #4A2829; }
+
+  .sport h3, .show h3 {
+    border-top: 1px solid #ddd;
+    padding: 30px 0 0;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+
+  .show img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .show img:nth-of-type(1) {
+    max-width: 80%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .sport { 
+    /*background: #4A2829;*/ 
+    background: #29272e; 
+    margin-bottom: 20px;
+  }
+  
   .show { background: #232830; }
       @media only screen and (min-width: 820px) {
         .sport, .show { 
           font-size: inherit; 
           padding: 2em;
-          width: 50%;
+          max-width: 28%;
+          margin-bottom: 0;
         }
-      }
-
-      .fleurs { 
-        display: block;
-        margin: 0 auto 30px;
-        max-width: 60%; 
-      }
-
-      .history {
-
       }
 
       .history figure {
@@ -299,26 +386,19 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.news h4 {
+  font-weight: normal;
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  padding: 0 20px 10px;
+  
+}
   
 .bright {
   background: #0d0d0d; 
   color: #ddd;
 }
-
-.whatitis {
-  font-size: 28px;
-  padding: 40px 40px 30px !important;
- /* position: sticky;
-  top: 60px; */
-  margin-top: -2px;
-  margin-bottom: 0;
-}
-      @media only screen and (min-width: 820px) {
-        .whatitis { 
-          font-size: 35px;
-          padding: 30px;
-        }
-      } 
 
 /*   .show h3 {
      margin-top: -20px;
@@ -331,20 +411,32 @@ img {
     padding-top: 10px;
   }
     @media only screen and (min-width: 820px) {
-      .join, .probetraining, .concept {
-        
+      .athletes-mobile {
+        display: none;
       }
     }
+
+      .athletes-mobile {
+        margin-top: 2em;
+      }
+
+  
 
   .probetraining {
     background: #232830; 
     padding: 20px 20px 30px;
     font-size: 0.9rem;
+    margin-top: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 450px;
   }
 
   .training { 
     background: #0d0d0d; 
     color: #ddd; 
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .training .bright {
     padding-bottom: 20px;
@@ -353,19 +445,37 @@ img {
       .training {
         width: 100%;
         display: flex;
-        flex-direction:;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        gap: 30px;
       }
 
       .training p {
-        max-width: 700px;
+        max-width: 500px;
       }
     }
 
   .concept {
     padding-bottom: 30px;
+    margin: 1em;
+  }
+    .concept h3, .concept p {
+      padding-left: 0;
+      padding-right: 0;
+      font-weight: normal;
+    }
+    .concept>section p:nth-of-type(4) {
+      font-weight: bold;
+    }
+
+  .schedule {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .history {
+    
   }
 
     @media only screen and (min-width: 820px) {
@@ -382,12 +492,14 @@ img {
         /*flex-direction: column;*/
         justify-content: center;
         align-items: center;
-        padding: 40px;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
       }
 
-        .concept section:nth-of-type(2) {
+        .concept section:nth-of-type(1) {
           max-width: 400px;
-          padding-left: 30px;
+          padding-right: 30px;
         }
 
       .history {
@@ -403,6 +515,13 @@ img {
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .schedule>h4 {
+    font-weight: normal;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 1em 1.5em;
   }
 
 summary { 
@@ -474,7 +593,12 @@ details p {
   strong.black { background: black; color: grey; }
   strong.white { background: #ddd; color: black; }
 
+
 .schedule p {
+  padding: 0px 0px 30px;
+}
+
+.schedule section p {
   display: block;
   margin: 0;
   padding: 10px 15px;
@@ -534,6 +658,9 @@ tr:nth-child(even) {
   background: #1e1e1e;
   margin: 3em 1em 1em;
 }
+  .contact h3 {
+    font-weight: normal;
+  }
     @media only screen and (min-width: 820px) {
       .contact {
         max-width: 1000px;
