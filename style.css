@@ -43,7 +43,7 @@ body {
 
 @keyframes shrink-font {
   from {
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
   to {
     font-size: 2.4rem;
@@ -140,6 +140,7 @@ header h1 {
   animation-timeline: scroll(root);
   animation-range: 0px 200px;
 }
+
   @media only screen and (min-width: 1100px) {
     header h1 { 
       font-size: 5em; 
@@ -405,6 +406,7 @@ img {
 
 .gallery img {
   height: 100%;
+  max-width: initial;
   margin: 0 auto;
 }
 
@@ -780,13 +782,14 @@ a:hover { color:rgba(255, 151, 151, 0.61); }
       border: 1px solid #ddd; 
       filter: brightness(0.8); 
     }
-}
-
-footer img { transition: 0.5s; }
+  
+  footer img { transition: 0.5s; }
   footer img:hover { opacity: 0.5; }
 
-summary { transition: 0.4s; }
-  summary:hover { 
-    filter: contrast(1.5); 
-    background-color:rgba(0, 0, 0, 0.3);
-  }
+  summary { transition: 0.4s; }
+    summary:hover { 
+      filter: contrast(1.5); 
+      background-color:rgba(0, 0, 0, 0.3);
+    }
+}
+
