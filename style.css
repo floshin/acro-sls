@@ -64,6 +64,7 @@ header {
   font-family: "Futura";
   margin: 0;
   padding: 0;
+  white-space: nowrap;
 
   position: sticky;
   top: 0;
