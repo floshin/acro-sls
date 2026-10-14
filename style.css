@@ -449,22 +449,15 @@ img {
 */
 
   .join {
-     /* greyblue */ 
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 1em;
-     
     color: #ddd;
-    padding-top: 10px;
+    padding-top: 1em;
     background: #161616;
   }
-    .join h3 {
-
-    }
-    .join p {
+    .join p, .join h3 {
       padding-left: 15px;
       padding-right: 15px;
+      margin-left: 1em;
+      margin-right: 1em;  
     }
 
     @media only screen and (min-width: 820px) {
