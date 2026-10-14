@@ -56,9 +56,7 @@ body {
 
 header {
   background: linear-gradient(rgba(10,10,10,0.8), rgba(64,64,64,0));
-
-/*  background: #0d0d0d; 
-  background: rgba(20, 20, 20, 0.90);*/
+/*  background: rgba(20, 20, 20, 0.90);*/
   backdrop-filter: blur(10px);
   color: #ddd;
   font-family: "Futura";
@@ -89,7 +87,7 @@ header {
 
 @media only screen and (min-width: 820px) {
   header {
-    position: sticky;
+    background: #0d0d0d;
     animation: none;
     padding-left: none;
     width: 100%;
@@ -97,8 +95,20 @@ header {
     margin: 0;
     padding: 0;
     /*justify-content: center;*/
-    background: linear-gradient(rgba(10,10,10,0.8), rgba(64,64,64,0));
   }
+    header .logo-sm {
+      max-height: 100%;
+      max-width: initial;
+      margin: initial;
+      display: none;
+    }
+
+    header section:nth-of-type(2) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
 
   .front-bg {
     width: 100%;
@@ -108,26 +118,19 @@ header {
     .front-bg img {
       width: 100%;
     }
-    .front-bg figcaption {
+    /*.front-bg figcaption {
       display: flex;
       justify-content: center;
       position: sticky; 
       bottom: 0;
-      margin-top: -70px;
+      margin-top: -75px;
       font-family: Futura;
       background: linear-gradient(rgba(64,64,64,0), rgba(10,10,10,0.8));
       padding: 20px;
       text-transform: uppercase;
       letter-spacing: 5px;
       font-size: 23px;
-    }
-
-  header .logo-sm {
-    max-height: 100%;
-    max-width: initial;
-    margin: initial;
-    display: none;
-  }
+    }*/
 }
 
 header h1 {
@@ -146,7 +149,8 @@ header h1 {
     header h1 { 
       font-size: 5em; 
       animation: none;
-      border-right: 5px solid #ddd;
+      
+      padding-left: 30px;
       padding-right: 40px;
     }
 
@@ -186,7 +190,8 @@ header h1 {
         display: block;
         margin: 0;
         padding-left: 40px;
-        font-size: 40px;
+        padding-right: 40px;
+        font-size: 45px;
       }
 
       header .shield-desktop:nth-of-type(2) {
@@ -209,8 +214,15 @@ header h1 {
         }
       }
 
+
+    .intro {
+      background: #0f0e10;
+    }
+
     .intro img {
-      border-right: 30px solid #232326;
+     /* margin-top: -60px;
+      border-top: 70px solid #232326;
+      border-right: 30px solid #232326; */
     }
 
       .intro p {
@@ -218,14 +230,12 @@ header h1 {
       }
 
       .intro>section {
-              margin-top: -5px;
-              border-left: 30px solid #232326;
-              border-top: 30px solid #232326;
+            /*  border-left: 30px solid #232326;
+              border-top: 30px solid #232326; */
               padding-bottom: 30px;
       }
 
-      .intro>section>p {
-        margin-top: 40px;
+      .intro section p:first-child {
         margin-bottom: 50px;
       }
 
@@ -234,24 +244,23 @@ header h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
         width: 100%;
         gap: 30px;
+        padding-top: 80px;
+        padding-bottom: 80px;
      /*   position: sticky;
         top: 100px;
         z-index: -10;  */
       }
 
       .intro>section {
-        margin-top: 0;
-        border-left: 50px solid #232326;
+        /*border-left: 30px solid #232326;*/
         border-top: none;
         padding: 30px;
       }
 
       .intro img {
-        border-right: 0;
+        border: 0;
         padding-left: 30px;
         padding-right: 30px;
       }
@@ -267,7 +276,7 @@ header h1 {
 
     .whatitis {
       font-size: 28px;
-    
+      margin-top: 0;
       /* position: sticky;
       top: 60px; */
       margin-bottom: 0;
@@ -275,7 +284,7 @@ header h1 {
       @media only screen and (min-width: 820px) {
         .whatitis { 
           font-size: 35px;
-          padding: 30px;
+          padding: 0 30px 30px;
         }
       } 
 
@@ -398,10 +407,10 @@ img {
 
   gap: 20px;
   overflow-x: auto;
-  padding: 30px 30px 30px;
-  margin-bottom: 20px;
-  height: 60vh;
-  min-width: 100%;
+  padding: 50px 30px;
+  margin-bottom: 30px;
+  height: 62vh;
+  width: 100%;
 }
 
 .gallery a {
@@ -417,14 +426,14 @@ img {
 
     @media only screen and (min-width: 820px) {
       .gallery {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-        height: auto;
+        padding: 80px;
+        /*flex-wrap: wrap;*/
+        /*justify-content: center;*/
+        height: 75vh;
       }
 
       .gallery img {
-        max-height: 400px;
+       /* max-height: 400px;*/
         margin: 0 auto;
       }
     }
@@ -454,13 +463,16 @@ img {
     background: #161616;
     margin-right: 1em;
     margin-left: 1em;
+    margin-bottom: 2em;
   }
-    .join p, .join h3 {
-      padding-left: 15px;
-      padding-right: 15px;
+    .join p, .join h3, .join h4 {
       margin-left: 1em;
-      margin-right: 1em;  
+      margin-right: 1em; 
+      font-weight: normal; 
     }
+      .join h3 {
+        margin: 20px 15px;
+      }
 
     @media only screen and (min-width: 820px) {
       .athletes-mobile {
@@ -468,16 +480,16 @@ img {
       }
       .join {
         width: 40%;
-        padding: 20px;
       }
     }
   
   .probetraining {
-    background: #232830; 
-    padding: 20px 0 30px;
+    background: #342b36; 
+    padding: 20px 0 25px;
     font-size: 0.9rem;
     margin-top: 40px;
   }
+    
 
 
   .concept {
@@ -599,15 +611,13 @@ details p {
   display: block;
 }
 
-  .salmon { color: #ffbaa3; }
-
   span.pink { background: pink; }
   span.green { background: mediumaquamarine; }
-  span.blue { background: royalblue; }
+  span.blue { background: #92adff; }
   span.purple { background: mediumpurple; }
   span.yellow { background: rgb(255, 221, 29); }
   span.orange { background: rgb(255, 151, 54); }
-  span.red { background: crimson; }
+  span.red { background: #e74566; }
   span.black { background: black; }
   span.white { background: #ddd; }
 
@@ -615,11 +625,11 @@ details p {
 
   strong.pink { color: pink; }
   strong.green { color: mediumaquamarine; }
-  strong.blue { color: royalblue; }
+  strong.blue { color: #92adff; }
   strong.purple { color: mediumpurple; }
   strong.yellow { color: rgb(255, 221, 29); }
   strong.orange { color: rgb(255, 151, 54); }
-  strong.red { color: crimson; }
+  strong.red { color: #e74566; }
   strong.black { background: black; color: grey; }
   strong.white { background: #ddd; color: black; }
 
@@ -656,8 +666,6 @@ table {
   width: 100%; 
   border-collapse: collapse;
   font-size: 14px;
-  border-top: 3px solid black;
-  background: #1e1e1e;
 }
 
 th { 
@@ -677,14 +685,14 @@ tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.5); 
 }
 
-.hyazinth { background: #995569; /* pink */ }
+.hyazinth { background: #825260; /* pink */ }
 .smaragd { background: #414e45; /* green */ }
 .recreational { background: #44414e; /* blue */ }
 .professional { background: #55493e; /* yellow */ }
 .elite { background: #493131; /* redder */ }
 
 .contact {
-  padding: 5px 10px 10px;
+  padding: 5px 10px 20px;
   background: #1e1e1e;
   margin: 3em 1em 1em;
 }
@@ -757,9 +765,6 @@ a:hover { color:rgba(255, 151, 151, 0.61); }
 @media only screen and (min-width: 820px) {
   header img { transition: 0.3s; }
     header img:hover { opacity: 0.7; }
-
-  .intro img { transition: 1s; }
-    .intro img:hover { filter: contrast(1.2) saturate(1.5); }
 
   .gallery img { 
     border: 1px solid #232326; 
