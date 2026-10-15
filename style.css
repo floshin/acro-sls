@@ -55,9 +55,7 @@ body {
 }
 
 header {
-  /*background: linear-gradient(rgba(10,10,10,0.8), rgba(64,64,64,0));*/
   background: rgba(35, 35, 38, 0.8);
-/*  background: rgba(20, 20, 20, 0.90);*/
   backdrop-filter: blur(10px);
   color: #ddd;
   font-family: "Futura";
@@ -88,22 +86,14 @@ header {
 
 @media only screen and (min-width: 820px) {
   header {
-    background: #0d0d0d;
+    background: rgba(15, 15, 15, 0.8);
     animation: none;
     padding-left: none;
     width: 100%;
     
     margin: 0;
     padding: 0;
-    /*justify-content: center;*/
   }
-    header .logo-sm {
-      max-height: 100%;
-      max-width: initial;
-      margin: initial;
-      display: none;
-    }
-
     header section:nth-of-type(2) {
       display: flex;
       align-items: center;
@@ -119,19 +109,6 @@ header {
     .front-bg img {
       width: 100%;
     }
-    /*.front-bg figcaption {
-      display: flex;
-      justify-content: center;
-      position: sticky; 
-      bottom: 0;
-      margin-top: -75px;
-      font-family: Futura;
-      background: linear-gradient(rgba(64,64,64,0), rgba(10,10,10,0.8));
-      padding: 20px;
-      text-transform: uppercase;
-      letter-spacing: 5px;
-      font-size: 23px;
-    }*/
 }
 
 header h1 {
@@ -145,6 +122,26 @@ header h1 {
   animation-timeline: scroll(root);
   animation-range: 0px 200px;
 }
+  header h2 {
+    display: none;
+  }
+
+
+  @media only screen and (min-width: 820px) {
+      header h1 { 
+        display: block;
+        font-size: 3em; 
+        animation: none;
+        padding-left: 30px;
+        padding-right: 10px;
+      }
+
+      header h2 {
+        display: block;
+        padding-right: 40px;
+        font-size: 2.5em;
+      }
+    }
 
   @media only screen and (min-width: 1100px) {
     header h1 { 
@@ -155,21 +152,16 @@ header h1 {
       padding-right: 40px;
     }
 
-  }
- /* @media only screen and (min-width: 600px) {
-    header h1 { 
-      font-size: 2.5em; 
-      animation: none;
-      border-right: 5px solid #ddd;
+    header h2 {
+      display: block;
+      margin: 0;
+      padding-left: 40px;
       padding-right: 40px;
+      font-size: 45px;
     }
-  }*/
-
-  header h2 {
-    display: none;
   }
 
-  .shield-desktop img { 
+  .crest img { 
     max-width: initial;
     max-height: 65px; 
     filter: contrast(0.9); 
@@ -179,62 +171,36 @@ header h1 {
   }
 
     @media only screen and (min-width: 820px) {
-      .shield-desktop { 
+      .crest { 
         display: flex;
         align-items: center;
-       /* background: rgba(30, 30, 30, 0.90);
-        height: 100%;*/
       }
-
-      header h2 {
-        display: block;
-        margin: 0;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 45px;
-      }
-
-      header .shield-desktop:nth-of-type(2) {
-        display: flex;
-      }
-    }
-
-      @media only screen and (min-width: 820px) {
-        .shield-desktop img { 
+        .crest img { 
           max-height: 120px; 
           margin-top: -20px;
           margin-bottom: -58px;
         }
-      }
-
-      @media only screen and (min-width: 820px) {
-        .shield-desktop h2 { 
-          font-size: 2em; 
-          font-weight: normal; 
-        }
-      }
-
-
-    .intro {
-      background: #141416;
-      
     }
 
-    .intro img {
-      margin-top: -60px; 
-      border-top: 60px solid #232326;
-      border-right: 30px solid #232326;
-    }
 
-      .intro p {
-        padding: 0px 40px 0;
-      }
+.intro {
+  background: #141416;
+}
+  .intro img {
+    margin-top: -60px; 
+    border-top: 60px solid #232326;
+    border-right: 30px solid #232326;
+  }
 
-      .intro>section {
-              margin-top: -5px;
-              border-left: 30px solid #232326;
-              border-top: 45px solid #232326; 
-              padding-top: 30px;
+  .intro p {
+    padding: 0px 40px 0;
+  }
+
+  .intro>section {
+    margin-top: -5px;
+    border-left: 30px solid #232326;
+    border-top: 45px solid #232326; 
+    padding-top: 30px;
               padding-bottom: 30px;
       }
 
@@ -424,6 +390,7 @@ img {
   height: 100%;
   max-width: initial;
   margin: 0 auto;
+  filter: grayscale(0.9); 
 }
 
     @media only screen and (min-width: 820px) {
@@ -787,7 +754,7 @@ a:hover { color:rgba(255, 151, 151, 0.61); }
   }
     .gallery img:hover { 
       border: 1px solid #ddd; 
-      filter: brightness(0.8); 
+       
     }
   
   footer img { transition: 0.5s; }
