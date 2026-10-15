@@ -432,7 +432,7 @@ img {
     color: #ddd;
     font-size: 14px;
     background: #232326;
-    border-bottom: 45px solid #342b36;
+    margin-bottom: 60px;
   }
     .join p, .join h3, .join h4 {
       margin-left: 1em;
@@ -459,7 +459,6 @@ img {
       }
       .join {
         max-width: 800px;
-        border-bottom: none;
       }
       .join>section:nth-of-type(1) {
         max-width: 45%;
