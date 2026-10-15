@@ -264,7 +264,7 @@ header h1 {
 
 .sport-show {
  /* padding-top: 30px; */
- margin: 1em;
+ margin: 1em 1em 2em;
 }
     @media only screen and (min-width: 820px) {
       .sport-show {
@@ -273,6 +273,7 @@ header h1 {
         gap: 20px;
         padding-top: 120px;
         width: 100%;
+        margin: 1em 1em 1.5em;
       }
     }
 
@@ -431,9 +432,6 @@ img {
     color: #ddd;
     font-size: 14px;
     background: #232326;
-    margin-right: 1em;
-    margin-left: 1em;
-    margin-bottom: 2em;
   }
     .join p, .join h3, .join h4 {
       margin-left: 1em;
@@ -753,8 +751,7 @@ a:hover { color:rgba(255, 151, 151, 0.61); }
     transition: 0.5s; 
   }
     .gallery img:hover { 
-      border: 1px solid #ddd; 
-       
+      border: 1px solid #ddd;  
     }
   
   footer img { transition: 0.5s; }
