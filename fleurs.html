@@ -19,7 +19,7 @@
     <section class="left">  
       <section class="title">  
         <header>
-          <a href="/">
+          <a href="">
             <img src="assets/logolight.png">
           </a>
           <!--<img src="IMG_20250526_213327.jpg" alt="Acro Saarlouis Logo der Sportakrobatikabteilung des TV 1879 Saarlouis-Roden">-->
@@ -40,11 +40,14 @@
     <main>
       <section class="name-top">
         <h2>Fleurs de la Sarre</h2>
-        <img src="assets/fleurs-crest.png">
+        <a href="">
+          <img src="assets/fleurs-crest.png">
+        </a>
       </section>
       <section class="intro">
         <img src="assets/fleurs.png">
-        <p>Ein Generationen übergreifendes Ensemble von Akrobaten in und um Saarlouis. Die Technik der Sportakrobatik vereint mit der kreativen Freiheit des zeitgenössischen Zirkus.</p> 
+      
+        <p>Ein Generationen übergreifendes Ensemble von Akrobaten in und um Saarlouis. Die Technik der Sportakrobatik vereint mit der kreativen Freiheit des zeitgenössischen Zirkus. Im Aufbau...</p> 
       </section>
 
       <section class="show-wrapper">
@@ -56,12 +59,13 @@
             <ul>
                 <li>
                     <h3>Among the Waves of the Moon</h3> 
+                    <br>
                     <!--<p>Our first show will accompany three girls, acrobatic flowers in growth, living on an island of safety. They try to cross the ocean of childhood, but are threatened to be carried away by the nymphs. Together they try to survive the waves of uncertainty. This is their story, told through acrobatic movement.</p>-->
-            <p>Unsere erste Show begleitet drei junge Akroblüten auf ihrer Reise über das Meer der Kindheit; konfrontiert mit Monstern und Nymphen trotzen sie allen Gefahren und wachsen über sich hinaus. Zusammen versuchen sie die Wellen der aufkeimenden Entfaltung zu überstehen. Eine Geschichte erzählt durch akrobatische Bewegung.</p>
-                    <p>Minimalistisches Bühnenbild, Kostüme und einfache Lichttechnik, mit Musik von <a href="https://music.youtube.com/channel/UCCb-f6Un6ysSQEKNqL0QESA">Clann</a>.</p>
+            <p>In unserer ersten geplanten Show werden die Zuschauer drei junge Akroblüten auf ihrer Reise über das Meer der Kindheit begleiten; konfrontiert mit Monstern und Nymphen trotzen sie vielen Gefahren und wachsen über sich hinaus. Zusammen versuchen sie die Wellen der aufkeimenden Entfaltung zu überstehen. Eine Geschichte erzählt durch akrobatische Bewegung, in mehreren Akten.</p>
+                    <p>Minimalistisches Bühnenbild, Kostüme und einfache Lichttechnik, mit sphärischer Musik von <a href="https://music.youtube.com/channel/UCCb-f6Un6ysSQEKNqL0QESA">Clann</a>.</p>
               <!--<p>Minimal stage-, costume- and light design, with music by <a href="https://music.youtube.com/channel/UCCb-f6Un6ysSQEKNqL0QESA">Clann</a>.</p>-->
-
-            <p><strong>Achtung:</strong> Aktuell handelt es sich hier um einen Pitch; es fehlen noch Athleten, Trainer und Resourcen, um die Vision zum Leben zu erwecken.</p>
+                  <br>
+            <p><strong>Achtung:</strong> Aktuell handelt es sich hier nur um einen Pitch; es fehlen Athleten, Trainer und Resourcen, um die Idee zu realisieren.</p>
                 </li>        
             </ul>
         </section>
@@ -111,9 +115,9 @@
     <section class="sports-wrapper">
       <section class="sportsacro">
         <h2>Akrobatik</h2>
-        <p>Die Fleurs sind Sportakrobaten. Was du auf der Bühne siehst sind Elemente dieser jahrtausende alten "Hand zu Hand" Bewegungskunst, die Turnen, Tanz und Kraftsport in einer Teamsportart vereint.<!-- [oder in einer Kooperation von?]--><!-- <a href="https://acro-sls.de">Acro Saarlouis</a> (TV 1879 Roden)<!--[und Sportakrobatik Schwalbach-Griesborn?], zwei lokalen Vereinen, denen jeder beitreten kann--> <!--, unserem lokalen Verein.--></p>
+        <p>Die Fleurs sind Sportakrobaten. Was du auf der Bühne sehen wirst sind Elemente dieser jahrtausende alten "Hand zu Hand" Bewegungskunst, die Turnen, Tanz und Kraftsport in einer Teamsportart vereint.<!-- [oder in einer Kooperation von?]--><!-- <a href="https://acro-sls.de">Acro Saarlouis</a> (TV 1879 Roden) [und Sportakrobatik Schwalbach-Griesborn?], zwei lokalen Vereinen, denen jeder beitreten kann--> <!--, unserem lokalen Verein.--></p>
       
-        <p>In Osteuropa wird die Sportakrobatik aufgrund ihrer umfassenden Bewegungsschulung auch als "Fundament" des Sports beschrieben. Wenn du mit uns auf die Bühne möchtest, führt der Weg über den Sport. Nicht zuletzt deshalb gibt es unser Ensemble, um der Hand zu Hand Akrobatik, die in der Sportakrobatik ihren höchsten Ausdruck findet, hier in unserer Region zu der ihr gebührenden Aufmerksamkeit zu verhelfen.</p>
+        <p>In Osteuropa wird die Sportakrobatik aufgrund ihrer umfassenden Bewegungsschulung auch als "Fundament" des Sports beschrieben. Wenn du mit uns auf die Bühne möchtest, führt der Weg über den Sport. Nicht zuletzt deshalb wollen wir dieses Ensemble gründen, um der Hand zu Hand Akrobatik, die in der Sportakrobatik ihren höchsten Ausdruck findet, hier in unserer Region zu der ihr gebührenden Aufmerksamkeit zu verhelfen.</p>
       </section>
 
       <section class="clubs">
@@ -712,15 +716,24 @@
     }
 
     a { transition: 0.4s; }
-    a:hover { color:rgba(255, 151, 151, 0.61); }
+      a:hover { color:rgba(151, 226, 255, 0.61); }
+      .clubs a:hover { color:rgba(255, 151, 151, 0.61); }
 
     .ensemble img { transition: 0.4s; } 
       .ensemble img:hover { filter: saturate(4); }
 
-    header img, .sports img, .support img, footer img { 
+    header img, 
+    .name-top img, 
+    .sports img, 
+    .support img, 
+    footer img { 
       transition: 0.5s; 
     }
-      header img:hover, .sports img:hover, .support img:hover, footer img:hover { 
+      header img:hover, 
+      .name-top img:hover, 
+      .sports img:hover, 
+      .support img:hover, 
+      footer img:hover { 
         opacity: 0.5; 
       }
 </style>
