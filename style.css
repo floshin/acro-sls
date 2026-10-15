@@ -216,7 +216,7 @@ header h1 {
 
 
     .intro {
-      background: #0f0e10;
+      background: #141416;
       
     }
 
@@ -291,9 +291,8 @@ header h1 {
         }
       } 
 
-
-.sport-bg {
-  filter: grayscale(90%); 
+.coaches {
+  filter: grayscale(0.9); 
   /*border: 5px solid black;*/
 }
 
@@ -461,9 +460,9 @@ img {
 */
 
   .join {
+    display: flex;
     color: #ddd;
     font-size: 14px;
-    padding-top: 1em;
     background: #161616;
     margin-right: 1em;
     margin-left: 1em;
@@ -475,15 +474,28 @@ img {
       font-weight: normal; 
     }
       .join h3 {
-        margin: 20px 15px;
+        margin: 30px 15px 20px;
       }
+         
+    .join>section:nth-of-type(1) {
+      max-width: 35%;
+    }
+
+    .join img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
 
     @media only screen and (min-width: 820px) {
       .athletes-mobile {
         display: none;
       }
       .join {
-        width: 40%;
+        max-width: 800px;
+      }
+      .join>section:nth-of-type(1) {
+        max-width: 45%;
       }
     }
   
