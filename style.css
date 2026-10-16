@@ -505,7 +505,7 @@ img {
       .schedule {
         background: none;
         margin-top: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 120px;
         width: 700px;
       }
 
@@ -605,7 +605,7 @@ details p {
   span.black { background: black; }
   span.white { background: #ddd; }
 
-  details strong { font-weight: normal; }
+  details strong { }
 
   strong.pink { color: pink; }
   strong.green { color: mediumaquamarine; }
@@ -669,6 +669,7 @@ tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.5); 
 }
 
+.white { background: rgb(134, 117, 117); }
 .hyazinth { background: #825260; /* pink */ }
 .smaragd { background: #414e45; /* green */ }
 .recreational { background: #44414e; /* blue */ }
