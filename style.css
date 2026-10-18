@@ -217,7 +217,7 @@ header h1 {
         gap: 30px;
         padding-top: 80px;
         padding-bottom: 80px;
-     /*   position: sticky;
+     /* position: sticky;
         top: 100px;
         z-index: -10;  */
       }
@@ -490,7 +490,7 @@ img {
       padding-left: 0;
       padding-right: 0;
     }
-    .concept>section p:nth-of-type(4) {
+    .concept>section p:nth-of-type(5) {
       font-weight: bold;
     }
 
