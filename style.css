@@ -726,9 +726,10 @@ footer {
       }
 
   footer div:nth-of-type(2) {
-    padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
     padding-bottom: 50px;
+    font-size: 13px;
   }
 
 footer p {
