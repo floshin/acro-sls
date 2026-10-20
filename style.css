@@ -706,8 +706,8 @@ footer {
   /*border-top: 1px solid rgba(255, 255, 255, 0.3);*/  
   width: 100%;
   margin: 0;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   font-size: 12px;
   /*text-align: center;*/
   background: #0d0d0d; 
@@ -739,6 +739,7 @@ footer {
 footer p {
   display: block;
   margin: 0;
+  padding: 0;
   padding-bottom: 15px;
 }
 
