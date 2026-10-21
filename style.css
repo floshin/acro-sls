@@ -754,11 +754,21 @@ a { color: inherit; }
 
 a { 
   color: rgba(255, 151, 151, 0.61);  
+  text-decoration: none;
   transition: 0.4s; 
 }
   a:hover { 
-    color: rgba(147, 53, 89, 0.33); 
+    color: #f7cee0; 
   }
+
+footer a { 
+  color: inherit; 
+  text-decoration: underline;
+}
+  footer a:hover { 
+    color: rgba(255, 151, 151, 0.61); 
+  }
+
 
 @media only screen and (min-width: 820px) {
   header img { transition: 0.3s; }
