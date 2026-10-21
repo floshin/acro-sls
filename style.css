@@ -752,8 +752,13 @@ a { color: inherit; }
 
 /* HOVER EFFECTS */
 
-a { transition: 0.4s; }
-a:hover { color:rgba(255, 151, 151, 0.61); }
+a { 
+  color: rgba(255, 151, 151, 0.61);  
+  transition: 0.4s; 
+}
+  a:hover { 
+    color: rgba(147, 53, 89, 0.33); 
+  }
 
 @media only screen and (min-width: 820px) {
   header img { transition: 0.3s; }
