@@ -761,6 +761,13 @@ a {
     color: #f7cee0; 
   }
 
+.show a { 
+  color: rgba(151, 226, 255, 0.61);
+}
+  .show a:hover { 
+    color: #B0E0E6; 
+  }
+
 footer a { 
   color: inherit; 
   text-decoration: underline;
