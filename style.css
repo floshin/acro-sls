@@ -776,6 +776,30 @@ footer a {
     color: rgba(255, 151, 151, 0.61); 
   }
 
+@media only screen and (min-width: 820px) {
+  footer div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer div:nth-of-type(2) {
+    padding-bottom: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  footer .footer-graphics {
+    padding: 30px 30px 60px;
+    gap: 100px;
+  }
+
+    footer section img {
+      height: 300px;
+    }
+      footer section .wappen {
+        height: initial;
+      }
+}
 
 @media only screen and (min-width: 820px) {
   header img { transition: 0.3s; }
