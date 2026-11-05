@@ -720,13 +720,15 @@ tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.5); 
 }
 
-.white { background: rgb(134, 117, 117); }
-.hyazinth { background: #825260; /* pink */ }
+.white { background: white; }
+.bud { background: rgb(134, 117, 117); }
+.blossom { background: #825260; /* pink */ }
+.saphir { background: #44414e; /* blue */ }
 .smaragd { background: #414e45; /* green */ }
-.recreational { background: #44414e; /* blue */ }
+.black { background: #1e1e1e; /* dark */ }
+
 .professional { background: #55493e; /* yellow */ }
 .elite { background: #493131; /* redder */ }
-.black { background: #1e1e1e; /* dark */ }
 
 .contact {
   padding: 5px 10px 20px;
