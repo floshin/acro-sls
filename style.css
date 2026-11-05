@@ -436,7 +436,7 @@ img {
     .ranks h4 {
       padding: 20px;
       margin-top: -4px;
-      background: #595959;
+      /*background: #595959;*/
       font-size: 18px;
     }
     .ranks h5 {
