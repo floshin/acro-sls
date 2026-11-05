@@ -449,12 +449,13 @@ img {
       width: 100%;
       font-size: 14px;
     }
-   /* .ranks li>ul {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background: black;
-    }*/
+
+   .ranks li>ul {
+      padding: 10px;
+      font-size: 10px;
+      background: #ddd;
+      color: black;
+    }
 
 .news h4 {
   font-weight: normal;
