@@ -445,6 +445,7 @@ img {
     }
     .ranks span {
       background: #404040;
+      padding: 15px 10px;
       width: 100%;
       font-size: 14px;
     }
