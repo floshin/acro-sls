@@ -449,6 +449,7 @@ img {
       padding: 15px 10px;
       width: 100%;
       font-size: 14px;
+      text-align: right;
     }
 
    .ranks li>ul {
