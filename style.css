@@ -411,7 +411,7 @@ img {
 .ranks {
   display: flex;
   gap: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 60px;
   overflow-x: auto;
   padding: 0;
@@ -423,8 +423,9 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     gap: 2px;
-    width: 250px;
-    min-width: 250px;
+    width: 200px;
+    min-width: 200px;
+    margin: 0;
   }
   .ranks img, .ranks h4, .ranks h5 {
     width: 100%;
@@ -432,7 +433,14 @@ img {
   .ranks h4, .ranks h5 {
     background: #29272e;
     padding: 30px 10px;
+    margin: 0;
   }
+    .ranks h4 {
+      font-size: 18px;
+    }
+    .ranks h5 {
+      font-size: 16px;
+    }
    /* .ranks li>ul {
       display: flex;
       flex-direction: column;
