@@ -418,18 +418,22 @@ img {
   list-style: none;
 }
   .ranks>li {
-    width: 300px;
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    border: 1px solid #ddd;
   }
   .ranks img {
     width: 100%;
+    border-bottom: 1px solid #ddd;
   }
-    .ranks li>ul {
+   /* .ranks li>ul {
       display: flex;
       flex-direction: column;
       justify-content: center;
       background: black;
-    }
+    }*/
 
 .news h4 {
   font-weight: normal;
