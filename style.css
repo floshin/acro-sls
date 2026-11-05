@@ -417,9 +417,12 @@ img {
   padding: 0;
   list-style: none;
 }
-  .ranks li {
-    width: 70vw;
-    background: 2px solid black;
+  .ranks>li {
+    width: 300px;
+    border: 2px solid black;
+  }
+  .ranks img {
+    width: 100%;
   }
     .ranks li>ul {
       display: flex;
