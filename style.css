@@ -451,6 +451,8 @@ img {
     }
 
    .ranks li>ul {
+      text-align: right;
+      list-style: none;
       padding: 10px;
       font-size: 10px;
       background: #ddd;
