@@ -410,23 +410,23 @@ img {
 
 .ranks {
   display: flex;
-  gap: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 60px;
   overflow-x: auto;
   padding: 0;
   list-style: none;
 }
   .ranks li {
-    max-width: 30vw;
+    width: 70vw;
+    background: 2px solid black;
   }
-
-  .ranks li>ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: black;
-  }
+    .ranks li>ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: black;
+    }
 
 .news h4 {
   font-weight: normal;
