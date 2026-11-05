@@ -434,6 +434,7 @@ img {
     margin: 0;
   }
     .ranks h4 {
+      margin-bottom: 2px;
       background: #595959;
       font-size: 18px;
     }
