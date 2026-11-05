@@ -658,13 +658,14 @@ details p {
 
   details strong { }
 
-  strong.pink { color: pink; }
-  strong.green { color: mediumaquamarine; }
-  strong.blue { color: #92adff; }
-  strong.purple { color: mediumpurple; }
+  h4.rosa, strong.rosa { color: #ffc0cb; }
+  h4.pink, strong.pink { color: pink; }
+  h4.green, strong.green { color: mediumaquamarine; }
+  h4.blue, strong.blue { color: #92adff; }
+  h4.purple, strong.purple { color: mediumpurple; }
   strong.yellow { color: rgb(255, 221, 29); }
   strong.orange { color: rgb(255, 151, 54); }
-  strong.red { color: #e74566; }
+  h4.red, strong.red { color: #e74566; }
   strong.black { background: black; color: grey; }
   strong.white { background: #ddd; color: black; }
 
