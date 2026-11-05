@@ -415,7 +415,12 @@ img {
   margin-bottom: 50px;
   overflow-x: auto;
   padding: 0;
+  list-style: none;
 }
+  .ranks li {
+    max-width: 30vw;
+  }
+
   .ranks li>ul {
     display: flex;
     flex-direction: column;
