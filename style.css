@@ -720,7 +720,7 @@ tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.5); 
 }
 
-.white { background: white; }
+.white { background: white; color: black; }
 .bud { background: rgb(134, 117, 117); }
 .blossom { background: #825260; /* pink */ }
 .saphir { background: #44414e; /* blue */ }
