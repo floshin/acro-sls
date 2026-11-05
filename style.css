@@ -408,7 +408,20 @@ img {
       }
     }
 
-
+.ranks {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow-x: auto;
+  padding: 0;
+}
+  .ranks li>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+  }
 
 .news h4 {
   font-weight: normal;
