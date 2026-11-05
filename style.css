@@ -722,6 +722,7 @@ tr:nth-child(even) {
 
 .white { background: white; color: black; }
 .bud { background: rgb(134, 117, 117); }
+.bud2 { background: #342b36; }
 .blossom { background: #825260; /* pink */ }
 .saphir { background: #44414e; /* blue */ }
 .smaragd { background: #414e45; /* green */ }
