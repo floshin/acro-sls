@@ -422,7 +422,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
     width: 250px;
     min-width: 250px;
     margin: 0;
@@ -435,7 +434,6 @@ img {
     margin: 0;
   }
     .ranks h4 {
-      margin-top: -10px;
       background: #595959;
       font-size: 18px;
     }
