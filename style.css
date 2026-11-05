@@ -421,7 +421,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 450px;
+    width: 500px;
+    min-width: 500px;
     border: 1px solid #ddd;
   }
   .ranks img {
