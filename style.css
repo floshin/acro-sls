@@ -411,10 +411,9 @@ img {
 .ranks {
   display: flex;
   gap: 8px;
-  margin-top: 10px;
-  margin-bottom: 60px;
   overflow-x: auto;
-  padding: 0;
+  padding: 1em;
+  margin-top: 0;
   list-style: none;
   text-align: center;
 }
@@ -525,7 +524,7 @@ img {
     
 
 
-  .concept {
+  .team {
     font-size: 0.9rem;
     background: #161616;
     padding: 10px 20px 30px;
@@ -533,34 +532,48 @@ img {
     flex-direction: column;
   }
 
-  .concept section:nth-of-type(1) {
+  .team section:nth-of-type(1) {
     padding-bottom: 2em;
   }
 
-    .concept h3, .concept p {
+    .team h3, .team p {
       padding-left: 0;
       padding-right: 0;
     }
-    .concept>section p:nth-of-type(5) {
+    .team>section p:nth-of-type(5) {
       font-weight: bold;
     }
 
+  .concept {
+    padding: 1em;
+    margin-top: -5px;
+  }
+
   .schedule {
-    background: #161616;
     padding: 1em;
     padding-bottom: 40px;
     margin-top: -5px;
   }
 
     @media only screen and (min-width: 820px) {
-      .schedule {
-        background: none;
+      
+      .concept {
         margin-top: 50px;
+        width: 700px;
+      }
+
+      .ranks {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: none;
+      }
+
+      .schedule {
         margin-bottom: 120px;
         width: 700px;
       }
 
-      .concept {
+      .team {
         background: #1e1e1e;
         
         display: flex;
@@ -572,7 +585,7 @@ img {
         padding-bottom: 100px;
       }
 
-        .concept section:nth-of-type(1) {
+        .team section:nth-of-type(1) {
           max-width: 400px;
           padding-right: 30px;
           border: none;
@@ -588,11 +601,11 @@ img {
     margin-top: 10px;
   }
 
-  .schedule>p {
+  .concept>p, .schedule>p {
     font-size: 0.9rem;
   }
 
-  .schedule h3, .concept h3 {
+  .concept h3, .schedule h3, .team h3 {
     font-weight: normal;
     font-size: 18px;
     border: 1px solid #ddd;
@@ -670,10 +683,11 @@ details p {
   strong.white { background: #ddd; color: black; }
 
 
-.schedule p {
-  padding: 0 0 10px;
+.concept p {
+  padding: 0;
 }
 
+.concept section p, 
 .schedule section p {
   display: block;
   margin: 0;
